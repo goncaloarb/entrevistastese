@@ -1,310 +1,824 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Áshrama SAC - Aulas de Yoga</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-			.aulas-grid {
-				display: grid;
-				grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-				gap: 20px;
-				margin: 30px 0;
-			.aula-card {
-	background: rgba(255, 255, 255, 0.85);
-	backdrop-filter: blur(10px);
-	border: 1px solid rgba(255, 255, 255, 0.3);
-	padding: 25px;
-	border-radius: 18px;
-	text-align: center;
-	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-	transition: all 0.3s ease;
-}
+# index.html — Versão Moderna Premium
 
-.aula-card:hover {
-	transform: translateY(-8px);
-	box-shadow: 0 12px 35px rgba(0, 191, 255, 0.18);
-	border-color: #00bfff;
-	background: rgba(255, 255, 255, 0.95);
-}
+```html
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Áshrama SAC • Yoga Online</title>
 
-.aula-card h3 {
-	margin: 0 0 15px 0;
-	color: #222;
-	font-size: 1.3em;
-	font-weight: 600;
-}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-.aula-card .button {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 160px;
-	margin: 15px auto 0 auto;
-	padding: 14px 0;
-	background: linear-gradient(135deg, #00bfff, #007bff);
-	color: white !important;
-	text-decoration: none;
-	border-radius: 30px;
-	font-weight: bold;
-	font-size: 1em;
-	text-align: center;
-	border: none;
-	box-shadow: 0 4px 15px rgba(0, 191, 255, 0.25);
-	transition: all 0.3s ease;
-	cursor: pointer;
-}
+  <style>
 
-.aula-card .button:hover {
-	transform: translateY(-2px) scale(1.03);
-	box-shadow: 0 8px 22px rgba(0, 191, 255, 0.35);
-	background: linear-gradient(135deg, #00d4ff, #008cff);
-}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-.aula-card .button:active {
-	transform: scale(0.98);
-}
+    :root {
+      --bg: #0b1020;
+      --card: rgba(255,255,255,0.08);
+      --card-border: rgba(255,255,255,0.12);
+      --text: #ffffff;
+      --muted: rgba(255,255,255,0.72);
+      --accent: #7dd3fc;
+      --accent2: #c084fc;
+      --glass: blur(18px);
+    }
 
-body {
-	background: linear-gradient(135deg, #eef4ff 0%, #dfefff 50%, #f8fbff 100%);
-	color: #222;
-}
+    body {
+      font-family: 'Inter', sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(125,211,252,0.18), transparent 30%),
+        radial-gradient(circle at bottom right, rgba(192,132,252,0.18), transparent 30%),
+        linear-gradient(135deg, #0b1020 0%, #121a31 50%, #0d1325 100%);
+      color: var(--text);
+      overflow-x: hidden;
+      min-height: 100vh;
+    }
 
-.filtro-aulas input {
-	padding: 14px 18px;
-	width: 320px;
-	max-width: 100%;
-	border: 1px solid #d0d7e2;
-	background: rgba(255,255,255,0.9);
-	color: #222;
-	border-radius: 30px;
-	font-size: 1em;
-	outline: none;
-	box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
 
-.filtro-aulas input:focus {
-	border-color: #00bfff;
-	box-shadow: 0 0 0 4px rgba(0,191,255,0.15);
-}
-		</style>
-	</head>
-	<body class="is-loading">
+    .container {
+      width: min(1400px, 92%);
+      margin: auto;
+    }
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    /* NAVBAR */
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Áshrama SAC<br />
-</h1>
-						<p>"Aqui podes encontrar todas as aulas gravadas"</a><br />
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 999;
+      backdrop-filter: blur(16px);
+      background: rgba(10, 15, 30, 0.55);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
 
-						<ul class="actions">
-							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 18px 0;
+    }
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">Aulas</a>
-					</header>
+    .logo {
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
+    .logo span {
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
 
-							<li><a href="index.html">Página Inicial</a></li>
-							<li class="active"><a href="index.html">Gravações</a></li>
-							
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
 
+    .nav-links a:hover {
+      color: white;
+    }
 
-					</nav>
+    /* HERO */
 
-				<!-- Main -->
-					<div id="main">
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date">Portugal, 2026</span>
-									<h1>Aulas atualizadas<br />
-	</h1>
-									<p>" Bem-vindo(a) ao nosso espaço de Yoga Online — um lugar criado para praticares ao teu ritmo, onde quiseres e quando quiseres.
-Aqui tens acesso a uma biblioteca com mais de 500 aulas gravadas, pensadas para acompanhar todos os níveis, desde iniciantes até praticantes mais experientes."</p>
-								</header>
-								
-							</article>
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.5)),
+        url('https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=2000&auto=format&fit=crop');
+      background-size: cover;
+      background-position: center;
+      opacity: 0.28;
+      transform: scale(1.05);
+    }
 
-						<!-- Filtro de Aulas -->
-						<div class="filtro-aulas">
-							<input type="text" id="filtroAulas" placeholder="🔍 Procura uma aula (ex: Aula 5, Iniciante)..." />
-						</div>
+    .hero-content {
+      position: relative;
+      z-index: 5;
+      max-width: 760px;
+      padding-top: 100px;
+    }
 
-						<!-- Grid de Aulas -->
-						<div class="aulas-grid" id="aulasContainer">
-							<!-- As aulas serão geradas aqui pelo JavaScript -->
-						</div>
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 18px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.1);
+      backdrop-filter: blur(10px);
+      color: #dbeafe;
+      margin-bottom: 24px;
+      font-size: 0.9rem;
+    }
 
-					</div>
+    .hero h1 {
+      font-size: clamp(3rem, 8vw, 6rem);
+      line-height: 0.95;
+      font-weight: 800;
+      margin-bottom: 24px;
+      letter-spacing: -3px;
+    }
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+    .gradient-text {
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
 
-			<script>
-				// Dados das 100 aulas de yoga
-				const aulas = [
-					{ numero: 1, titulo: "Yoga para Iniciantes", nivel: "Iniciante", duracao: "20 min", url: "https://youtu.be/8nd2bX18vzk" },
-					{ numero: 2, titulo: "Aquecimento Matinal", nivel: "Iniciante", duracao: "15 min", url: "https://youtu.be/BxTVmIHV2Kc" },
-					{ numero: 3, titulo: "Yoga para Flexibilidade", nivel: "Iniciante", duracao: "25 min", url: "https://youtu.be/ANOLju4ktZY" },
-					{ numero: 4, titulo: "Respiração e Meditação", nivel: "Iniciante", duracao: "10 min", url: "https://youtu.be/EGAvMognwy4" },
-					{ numero: 5, titulo: "Yoga Vinyasa Básico", nivel: "Intermediário", duracao: "30 min", url: "https://youtu.be/DS7Tz5eh9dA" },
-					{ numero: 6, titulo: "Alongamento Suave", nivel: "Iniciante", duracao: "20 min", url: "https://youtu.be/I5eYFc_sICs" },
-					{ numero: 7, titulo: "Yoga para Costas", nivel: "Intermediário", duracao: "25 min", url: "https://youtu.be/ql9gOCChnMk" },
-					{ numero: 8, titulo: "Fortalecimento do Core", nivel: "Intermediário", duracao: "30 min", url: "https://youtu.be/J1v8cmb4ubE" },
-					{ numero: 9, titulo: "Yoga Noturno para Dormir", nivel: "Iniciante", duracao: "20 min", url: "https://youtu.be/KJasf_IeL4Y" },
-					{ numero: 10, titulo: "Asanas Fundamentais", nivel: "Iniciante", duracao: "35 min", url: "https://youtu.be/rC2npY28fto" },
-					{ numero: 11, titulo: "Yoga Dinâmico", nivel: "Intermediário", duracao: "40 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 12, titulo: "Equilíbrio e Estabilidade", nivel: "Intermediário", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 13, titulo: "Yoga para Stress", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 14, titulo: "Pranayama Avançado", nivel: "Avançado", duracao: "15 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 15, titulo: "Yoga para Quadril", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 16, titulo: "Inversões Básicas", nivel: "Intermediário", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 17, titulo: "Yoga para Pernas", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 18, titulo: "Meditação Guiada", nivel: "Iniciante", duracao: "15 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 19, titulo: "Yoga Yin", nivel: "Iniciante", duracao: "45 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 20, titulo: "Yoga Restaurativo", nivel: "Iniciante", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 21, titulo: "Aquecimento Dinâmico", nivel: "Intermediário", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 22, titulo: "Yoga para Ombros", nivel: "Intermediário", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 23, titulo: "Sequência Solar", nivel: "Iniciante", duracao: "15 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 24, titulo: "Yoga para Pescoço", nivel: "Iniciante", duracao: "10 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 25, titulo: "Vinyasa Flow", nivel: "Intermediário", duracao: "40 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 26, titulo: "Yoga para Energia", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 27, titulo: "Yoga Lunar", nivel: "Iniciante", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 28, titulo: "Fortalecimento de Braços", nivel: "Intermediário", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 29, titulo: "Yoga para Digestão", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 30, titulo: "Chakras e Energia", nivel: "Intermediário", duracao: "35 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 31, titulo: "Yoga Matinal Rápido", nivel: "Iniciante", duracao: "10 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 32, titulo: "Yoga para Ansiedade", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 33, titulo: "Ashtanga Yoga", nivel: "Avançado", duracao: "60 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 34, titulo: "Yoga para Mulheres", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 35, titulo: "Yoga Pré-Natal", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 36, titulo: "Yoga Pós-Natal", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 37, titulo: "Yoga para Crianças", nivel: "Iniciante", duracao: "15 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 38, titulo: "Yoga em Cadeira", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 39, titulo: "Yoga para Idosos", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 40, titulo: "Yoga Intenso", nivel: "Avançado", duracao: "50 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 41, titulo: "Yoga para Atletas", nivel: "Intermediário", duracao: "40 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 42, titulo: "Yoga e Pilates", nivel: "Intermediário", duracao: "35 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 43, titulo: "Yoga para Corredores", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 44, titulo: "Yoga para Ciclistas", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 45, titulo: "Yoga para Nadadores", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 46, titulo: "Yoga Terapêutico", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 47, titulo: "Yoga para Migrânea", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 48, titulo: "Yoga para Artrite", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 49, titulo: "Yoga para Diabetes", nivel: "Iniciante", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 50, titulo: "Yoga para Hipertensão", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 51, titulo: "Yoga Detox", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 52, titulo: "Yoga para Imunidade", nivel: "Intermediário", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 53, titulo: "Yoga para Circulação", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 54, titulo: "Yoga para Respiração", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 55, titulo: "Yoga para Coração", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 56, titulo: "Yoga Facial", nivel: "Iniciante", duracao: "15 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 57, titulo: "Yoga para Pele", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 58, titulo: "Yoga para Cabelo", nivel: "Iniciante", duracao: "15 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 59, titulo: "Yoga para Unhas", nivel: "Iniciante", duracao: "10 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 60, titulo: "Yoga para Olhos", nivel: "Iniciante", duracao: "10 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 61, titulo: "Yoga Noturno Profundo", nivel: "Iniciante", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 62, titulo: "Yoga Matinal Energético", nivel: "Intermediário", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 63, titulo: "Yoga à Tarde", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 64, titulo: "Yoga Vespertino", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 65, titulo: "Yoga Noturno Calmo", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 66, titulo: "Yoga de Fim de Semana", nivel: "Intermediário", duracao: "45 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 67, titulo: "Yoga Segunda-Feira", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 68, titulo: "Yoga Terça-Feira", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 69, titulo: "Yoga Quarta-Feira", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 70, titulo: "Yoga Quinta-Feira", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 71, titulo: "Yoga Sexta-Feira", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 72, titulo: "Yoga Sábado", nivel: "Intermediário", duracao: "45 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 73, titulo: "Yoga Domingo", nivel: "Iniciante", duracao: "40 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 74, titulo: "Yoga Primavera", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 75, titulo: "Yoga Verão", nivel: "Intermediário", duracao: "35 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 76, titulo: "Yoga Outono", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 77, titulo: "Yoga Inverno", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 78, titulo: "Yoga Lunar Completo", nivel: "Intermediário", duracao: "40 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 79, titulo: "Yoga Solar Completo", nivel: "Intermediário", duracao: "40 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 80, titulo: "Yoga Equinócio", nivel: "Intermediário", duracao: "35 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 81, titulo: "Yoga Solstício", nivel: "Intermediário", duracao: "35 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 82, titulo: "Yoga Plenilúnio", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 83, titulo: "Yoga Lua Nova", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 84, titulo: "Yoga Quarto Crescente", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 85, titulo: "Yoga Quarto Minguante", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 86, titulo: "Yoga Mantras", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 87, titulo: "Yoga Mudras", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 88, titulo: "Yoga Bandhas", nivel: "Intermediário", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 89, titulo: "Yoga Kriyas", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 90, titulo: "Yoga Tantra", nivel: "Avançado", duracao: "45 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 91, titulo: "Yoga Kundalini", nivel: "Avançado", duracao: "50 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 92, titulo: "Yoga Hatha", nivel: "Intermediário", duracao: "40 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 93, titulo: "Yoga Bhakti", nivel: "Iniciante", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 94, titulo: "Yoga Karma", nivel: "Iniciante", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 95, titulo: "Yoga Jnana", nivel: "Intermediário", duracao: "35 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 96, titulo: "Yoga Raja", nivel: "Avançado", duracao: "45 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 97, titulo: "Yoga Integral", nivel: "Intermediário", duracao: "50 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 98, titulo: "Yoga Holístico", nivel: "Intermediário", duracao: "45 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 99, titulo: "Yoga Transformador", nivel: "Avançado", duracao: "60 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
-					{ numero: 100, titulo: "Yoga Iluminação", nivel: "Avançado", duracao: "75 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" }
-				];
+    .hero p {
+      color: var(--muted);
+      font-size: 1.15rem;
+      line-height: 1.8;
+      max-width: 640px;
+      margin-bottom: 38px;
+    }
 
-				// Função para renderizar as aulas
-				// Função para renderizar as aulas com design simples
-function renderizarAulas(aulasParaMostrar = aulas) {
-	const container = document.getElementById('aulasContainer');
-	container.innerHTML = '';
+    .hero-buttons {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
 
-	aulasParaMostrar.forEach(aula => {
-		const card = document.createElement('div');
-		card.className = 'aula-card';
+    .btn {
+      padding: 16px 28px;
+      border-radius: 18px;
+      font-weight: 600;
+      transition: 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+    }
 
-		card.innerHTML = `
-			<h3>Aula ${aula.numero}</h3>
-			<a href="${aula.url}" class="button" target="_blank">Assistir</a>
-		`;
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #08111f;
+      box-shadow: 0 15px 40px rgba(125,211,252,0.22);
+    }
 
-		container.appendChild(card);
-	});
-}
+    .btn-primary:hover {
+      transform: translateY(-4px);
+    }
 
-// Função de filtro (mantém barra de pesquisa)
-document.getElementById('filtroAulas').addEventListener('keyup', function(e) {
-	const termo = e.target.value.toLowerCase();
+    .btn-secondary {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      backdrop-filter: blur(12px);
+    }
 
-	const aulasFiltradas = aulas.filter(aula =>
-		aula.numero.toString().includes(termo) ||
-		aula.titulo.toLowerCase().includes(termo) ||
-		aula.nivel.toLowerCase().includes(termo)
-	);
+    .btn-secondary:hover {
+      background: rgba(255,255,255,0.14);
+    }
 
-	renderizarAulas(aulasFiltradas);
-});
+    /* STATS */
 
-// Renderizar todas as aulas ao carregar
-document.addEventListener('DOMContentLoaded', function() {
-	renderizarAulas();
-});
-			</script>
+    .stats {
+      margin-top: 80px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 18px;
+    }
 
-	</body>
+    .stat-card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 24px;
+      padding: 28px;
+      backdrop-filter: blur(14px);
+    }
+
+    .stat-card h2 {
+      font-size: 2rem;
+      margin-bottom: 8px;
+    }
+
+    .stat-card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin: 0;
+    }
+
+    /* SECTION */
+
+    .section {
+      padding: 120px 0;
+      position: relative;
+    }
+
+    .section-title {
+      margin-bottom: 50px;
+    }
+
+    .section-title h2 {
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      margin-bottom: 12px;
+    }
+
+    .section-title p {
+      color: var(--muted);
+      max-width: 700px;
+      line-height: 1.7;
+    }
+
+    /* SEARCH */
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 18px 22px;
+      border-radius: 22px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.08);
+      backdrop-filter: blur(12px);
+      margin-bottom: 40px;
+    }
+
+    .search-box input {
+      width: 100%;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: white;
+      font-size: 1rem;
+    }
+
+    .search-box input::placeholder {
+      color: rgba(255,255,255,0.45);
+    }
+
+    /* FILTERS */
+
+    .filters {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .filter-btn {
+      padding: 12px 20px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.08);
+      cursor: pointer;
+      transition: 0.3s ease;
+      color: var(--muted);
+    }
+
+    .filter-btn.active,
+    .filter-btn:hover {
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #07111d;
+      border-color: transparent;
+    }
+
+    /* GRID */
+
+    .aulas-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 28px;
+    }
+
+    .aula-card {
+      position: relative;
+      overflow: hidden;
+      border-radius: 30px;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.08);
+      backdrop-filter: blur(16px);
+      transition: 0.4s ease;
+    }
+
+    .aula-card:hover {
+      transform: translateY(-10px);
+      border-color: rgba(125,211,252,0.4);
+      box-shadow: 0 30px 60px rgba(0,0,0,0.35);
+    }
+
+    .thumbnail {
+      position: relative;
+      height: 220px;
+      overflow: hidden;
+    }
+
+    .thumbnail img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: 0.5s ease;
+    }
+
+    .aula-card:hover img {
+      transform: scale(1.08);
+    }
+
+    .thumbnail::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.8), transparent 50%);
+    }
+
+    .play-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.14);
+      backdrop-filter: blur(12px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;
+      z-index: 10;
+      transition: 0.3s ease;
+    }
+
+    .aula-card:hover .play-btn {
+      transform: translate(-50%, -50%) scale(1.08);
+    }
+
+    .card-content {
+      padding: 24px;
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    .badge-level {
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    .iniciante {
+      background: rgba(74,222,128,0.15);
+      color: #86efac;
+    }
+
+    .intermediario {
+      background: rgba(96,165,250,0.15);
+      color: #93c5fd;
+    }
+
+    .avancado {
+      background: rgba(248,113,113,0.15);
+      color: #fca5a5;
+    }
+
+    .duracao {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .card-content h3 {
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+      line-height: 1.4;
+    }
+
+    .card-content p {
+      color: var(--muted);
+      line-height: 1.7;
+      margin-bottom: 22px;
+      font-size: 0.95rem;
+    }
+
+    .watch-btn {
+      width: 100%;
+      padding: 15px;
+      border-radius: 18px;
+      border: none;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #08111f;
+      font-weight: 700;
+      cursor: pointer;
+      transition: 0.3s ease;
+      font-size: 0.95rem;
+    }
+
+    .watch-btn:hover {
+      transform: scale(1.02);
+    }
+
+    /* FOOTER */
+
+    footer {
+      padding: 80px 0;
+      border-top: 1px solid rgba(255,255,255,0.08);
+      margin-top: 80px;
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .footer-content p {
+      color: var(--muted);
+      max-width: 500px;
+      line-height: 1.8;
+    }
+
+    /* RESPONSIVE */
+
+    @media(max-width: 768px) {
+
+      .nav-links {
+        display: none;
+      }
+
+      .hero {
+        padding: 100px 0 40px;
+      }
+
+      .hero h1 {
+        letter-spacing: -2px;
+      }
+
+      .hero-buttons {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .section {
+        padding: 80px 0;
+      }
+
+      .aulas-grid {
+        grid-template-columns: 1fr;
+      }
+
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+
+  <nav class="navbar">
+    <div class="container nav-inner">
+
+      <div class="logo">
+        Áshrama <span>SAC</span>
+      </div>
+
+      <div class="nav-links">
+        <a href="#inicio">Início</a>
+        <a href="#aulas">Aulas</a>
+        <a href="#biblioteca">Biblioteca</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- HERO -->
+
+  <section class="hero" id="inicio">
+    <div class="container hero-content">
+
+      <div class="badge">
+        ✨ Plataforma Premium de Yoga Online
+      </div>
+
+      <h1>
+        Transforma a tua prática <span class="gradient-text">de Yoga</span>
+      </h1>
+
+      <p>
+        Explora uma biblioteca moderna com mais de 500 aulas gravadas.
+        Pratica ao teu ritmo, melhora a tua respiração, flexibilidade e equilíbrio
+        com experiências imersivas criadas para todos os níveis.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#aulas" class="btn btn-primary">
+          ▶ Explorar Aulas
+        </a>
+
+        <a href="#biblioteca" class="btn btn-secondary">
+          ✨ Ver Biblioteca
+        </a>
+      </div>
+
+      <div class="stats">
+
+        <div class="stat-card">
+          <h2>500+</h2>
+          <p>Aulas Disponíveis</p>
+        </div>
+
+        <div class="stat-card">
+          <h2>24/7</h2>
+          <p>Acesso Online</p>
+        </div>
+
+        <div class="stat-card">
+          <h2>3</h2>
+          <p>Níveis de Prática</p>
+        </div>
+
+        <div class="stat-card">
+          <h2>HD</h2>
+          <p>Qualidade Premium</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- AULAS -->
+
+  <section class="section" id="aulas">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Biblioteca de Aulas</h2>
+        <p>
+          Descobre práticas para relaxamento, força, mobilidade,
+          meditação e energia interior com um design moderno e intuitivo.
+        </p>
+      </div>
+
+      <div class="search-box">
+        🔍
+        <input type="text" id="filtroAulas" placeholder="Procura uma aula, nível ou tema...">
+      </div>
+
+      <div class="filters">
+        <button class="filter-btn active" data-filter="todos">Todos</button>
+        <button class="filter-btn" data-filter="iniciante">Iniciante</button>
+        <button class="filter-btn" data-filter="intermediário">Intermediário</button>
+        <button class="filter-btn" data-filter="avançado">Avançado</button>
+      </div>
+
+      <div class="aulas-grid" id="aulasContainer"></div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer id="contacto">
+    <div class="container footer-content">
+
+      <div>
+        <div class="logo" style="margin-bottom: 18px;">
+          Áshrama <span>SAC</span>
+        </div>
+
+        <p>
+          Um espaço moderno criado para aprofundares a tua prática,
+          encontrares equilíbrio e cuidares do teu bem-estar através do Yoga.
+        </p>
+      </div>
+
+      <div>
+        <p>
+          © 2026 Áshrama SAC • Todos os direitos reservados.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <script>
+
+    const aulas = [
+      {
+        numero: 1,
+        titulo: 'Yoga para Iniciantes',
+        nivel: 'Iniciante',
+        duracao: '20 min',
+        url: 'https://youtu.be/8nd2bX18vzk'
+      },
+      {
+        numero: 2,
+        titulo: 'Aquecimento Matinal',
+        nivel: 'Iniciante',
+        duracao: '15 min',
+        url: 'https://youtu.be/BxTVmIHV2Kc'
+      },
+      {
+        numero: 3,
+        titulo: 'Yoga para Flexibilidade',
+        nivel: 'Intermediário',
+        duracao: '25 min',
+        url: 'https://youtu.be/ANOLju4ktZY'
+      },
+      {
+        numero: 4,
+        titulo: 'Respiração e Meditação',
+        nivel: 'Iniciante',
+        duracao: '10 min',
+        url: 'https://youtu.be/EGAvMognwy4'
+      },
+      {
+        numero: 5,
+        titulo: 'Vinyasa Flow Premium',
+        nivel: 'Avançado',
+        duracao: '45 min',
+        url: 'https://youtu.be/DS7Tz5eh9dA'
+      },
+      {
+        numero: 6,
+        titulo: 'Yoga Relaxante Noturno',
+        nivel: 'Iniciante',
+        duracao: '30 min',
+        url: 'https://youtu.be/KJasf_IeL4Y'
+      },
+      {
+        numero: 7,
+        titulo: 'Yoga para Energia',
+        nivel: 'Intermediário',
+        duracao: '28 min',
+        url: 'https://youtu.be/rC2npY28fto'
+      },
+      {
+        numero: 8,
+        titulo: 'Meditação Guiada',
+        nivel: 'Iniciante',
+        duracao: '18 min',
+        url: 'https://youtu.be/J1v8cmb4ubE'
+      }
+    ];
+
+    const container = document.getElementById('aulasContainer');
+    const filtro = document.getElementById('filtroAulas');
+    const filterButtons = document.querySelectorAll('.filter-btn');
+
+    let filtroAtual = 'todos';
+
+    function getYoutubeThumbnail(url) {
+      const regExp = /(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\n?#]+)/;
+      const match = url.match(regExp);
+
+      if(match && match[1]) {
+        return `https://img.youtube.com/vi/${match[1]}/hqdefault.jpg`;
+      }
+
+      return 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=1200&auto=format&fit=crop';
+    }
+
+    function getNivelClass(nivel) {
+
+      if(nivel.toLowerCase().includes('iniciante')) {
+        return 'iniciante';
+      }
+
+      if(nivel.toLowerCase().includes('intermedi')) {
+        return 'intermediario';
+      }
+
+      return 'avancado';
+    }
+
+    function renderizarAulas(lista) {
+
+      container.innerHTML = '';
+
+      lista.forEach(aula => {
+
+        const card = document.createElement('div');
+        card.className = 'aula-card';
+
+        card.innerHTML = `
+
+          <div class="thumbnail">
+            <img src="${getYoutubeThumbnail(aula.url)}" alt="${aula.titulo}">
+
+            <div class="play-btn">
+              ▶
+            </div>
+          </div>
+
+          <div class="card-content">
+
+            <div class="card-top">
+              <div class="badge-level ${getNivelClass(aula.nivel)}">
+                ${aula.nivel}
+              </div>
+
+              <div class="duracao">
+                ${aula.duracao}
+              </div>
+            </div>
+
+            <h3>
+              Aula ${aula.numero} • ${aula.titulo}
+            </h3>
+
+            <p>
+              Desenvolve equilíbrio, respiração e bem-estar através desta prática guiada.
+            </p>
+
+            <a href="${aula.url}" target="_blank">
+              <button class="watch-btn">
+                ▶ Ver Aula
+              </button>
+            </a>
+
+          </div>
+
+        `;
+
+        container.appendChild(card);
+
+      });
+
+    }
+
+    function atualizarFiltros() {
+
+      const termo = filtro.value.toLowerCase();
+
+      const aulasFiltradas = aulas.filter(aula => {
+
+        const correspondePesquisa =
+          aula.titulo.toLowerCase().includes(termo) ||
+          aula.nivel.toLowerCase().includes(termo) ||
+          aula.numero.toString().includes(termo);
+
+        const correspondeNivel =
+          filtroAtual === 'todos' ||
+          aula.nivel.toLowerCase() === filtroAtual;
+
+        return correspondePesquisa && correspondeNivel;
+
+      });
+
+      renderizarAulas(aulasFiltradas);
+
+    }
+
+    filtro.addEventListener('keyup', atualizarFiltros);
+
+    filterButtons.forEach(btn => {
+
+      btn.addEventListener('click', () => {
+
+        filterButtons.forEach(b => b.classList.remove('active'));
+
+        btn.classList.add('active');
+
+        filtroAtual = btn.dataset.filter;
+
+        atualizarFiltros();
+
+      });
+
+    });
+
+    renderizarAulas(aulas);
+
+  </script>
+
+</body>
 </html>
+```
