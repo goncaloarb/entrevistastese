@@ -6,11 +6,95 @@
 -->
 <html>
 	<head>
-		<title>Massively by HTML5 UP</title>
+		<title>Áshrama SAC - Aulas de Yoga</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.aulas-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+				gap: 20px;
+				margin: 30px 0;
+			.aula-card {
+	background: rgba(255, 255, 255, 0.85);
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	padding: 25px;
+	border-radius: 18px;
+	text-align: center;
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+	transition: all 0.3s ease;
+}
+
+.aula-card:hover {
+	transform: translateY(-8px);
+	box-shadow: 0 12px 35px rgba(0, 191, 255, 0.18);
+	border-color: #00bfff;
+	background: rgba(255, 255, 255, 0.95);
+}
+
+.aula-card h3 {
+	margin: 0 0 15px 0;
+	color: #222;
+	font-size: 1.3em;
+	font-weight: 600;
+}
+
+.aula-card .button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 160px;
+	margin: 15px auto 0 auto;
+	padding: 14px 0;
+	background: linear-gradient(135deg, #00bfff, #007bff);
+	color: white !important;
+	text-decoration: none;
+	border-radius: 30px;
+	font-weight: bold;
+	font-size: 1em;
+	text-align: center;
+	border: none;
+	box-shadow: 0 4px 15px rgba(0, 191, 255, 0.25);
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+.aula-card .button:hover {
+	transform: translateY(-2px) scale(1.03);
+	box-shadow: 0 8px 22px rgba(0, 191, 255, 0.35);
+	background: linear-gradient(135deg, #00d4ff, #008cff);
+}
+
+.aula-card .button:active {
+	transform: scale(0.98);
+}
+
+body {
+	background: linear-gradient(135deg, #eef4ff 0%, #dfefff 50%, #f8fbff 100%);
+	color: #222;
+}
+
+.filtro-aulas input {
+	padding: 14px 18px;
+	width: 320px;
+	max-width: 100%;
+	border: 1px solid #d0d7e2;
+	background: rgba(255,255,255,0.9);
+	color: #222;
+	border-radius: 30px;
+	font-size: 1em;
+	outline: none;
+	box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.filtro-aulas input:focus {
+	border-color: #00bfff;
+	box-shadow: 0 0 0 4px rgba(0,191,255,0.15);
+}
+		</style>
 	</head>
 	<body class="is-loading">
 
@@ -21,7 +105,7 @@
 					<div id="intro">
 						<h1>Áshrama SAC<br />
 </h1>
-						<p>“Aqui podes encontrar todas as aulas gravadas”</a><br />
+						<p>"Aqui podes encontrar todas as aulas gravadas"</a><br />
 
 						<ul class="actions">
 							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
@@ -30,22 +114,16 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Entrevistas</a>
+						<a href="index.html" class="logo">Aulas</a>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
 
-							<li><a href="index.html">Carolina.B</a></li>
-							<li class="active"><a href="fernando.html">Fernando.M</a></li>
-							<li class="active"><a href="Ruicaneira.html">Ana.L</a></li>
-							<li class="active"><a href="Ruicaneira.html">Carlos.M</a></li>
-							<li class="active"><a href="Ruicaneira.html">Patricia.C</a></li>
-							<li class="active"><a href="Ruicaneira.html">Carolina.S</a></li>
-							<li class="active"><a href="Ruicaneira.html">Catia.R</a></li>
-							<li class="active"><a href="#">Sobre</a></li>
-
+							<li><a href="index.html">Página Inicial</a></li>
+							<li class="active"><a href="index.html">Gravações</a></li>
+							
 
 
 					</nav>
@@ -56,306 +134,26 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<span class="date">Portugal, 18 abril 2022</span>
-									<h1>Carolina<br />
-	Bernardo</h1>
-									<p>"Eu acho que é fazer coisas novas, há muitas coisas que já são feitas já mesmo por pessoas que não são designers por exemplo David Carson que faz uma coisa completamente nova que é completamente inovadora, que é nós chegarmos e termos a criatividade de fazer algo completamente novo e que as pessoas vejam, acho que isso era um dos maiores obstáculos no design."</p>
+									<span class="date">Portugal, 2026</span>
+									<h1>Aulas atualizadas<br />
+	</h1>
+									<p>" Bem-vindo(a) ao nosso espaço de Yoga Online — um lugar criado para praticares ao teu ritmo, onde quiseres e quando quiseres.
+Aqui tens acesso a uma biblioteca com mais de 500 aulas gravadas, pensadas para acompanhar todos os níveis, desde iniciantes até praticantes mais experientes."</p>
 								</header>
-								<a href="#" class="image main"><img src="images/Bernardo.jpg" alt="" /></a>
-								<ul class="actions">
-									<li><a href="https://www.youtube.com/watch?v=Wa0LyfBY4Ow" class="button big">Entrevista Youtube</a></li>
-								</ul>
+								
 							</article>
 
-						<!-- Posts -->
-						<section class="post">
-							</header>
-							<center>
-							<h2>Entrevista Escrita<br />
-							</h2>
-<center>
-							<p>
+						<!-- Filtro de Aulas -->
+						<div class="filtro-aulas">
+							<input type="text" id="filtroAulas" placeholder="🔍 Procura uma aula (ex: Aula 5, Iniciante)..." />
+						</div>
+
+						<!-- Grid de Aulas -->
+						<div class="aulas-grid" id="aulasContainer">
+							<!-- As aulas serão geradas aqui pelo JavaScript -->
+						</div>
 
-								<b> Entrevistador:<br />  </b>
-Chamo-me Gonçalo Brás e como te tinha dito, estou a desenvolver a minha tese de Mestrado sobre as “emoções do Designer durante o processo de design”, Ou seja, pretendo mapear os estados de espírito de um designer ao longo do processo de design.
-Em primeiro lugar queria agradecer-te por partilhares informações sobre ti e sobre o teu trabalho.
-
-<b> Entrevistador:<br />  </b>
-Qual é a tua idade?<br />
-
-<b> Entrevistado:<br />  </b>
-Eu tenho 24 anos<br />
-
-<b> Entrevistador:<br />  </b>
-Estás a estudar e a trabalhar ao mesmo tempo?<br />
-
-<b> Entrevistado:<br />  </b>
-Eu faço trabalhos de Freelancer<br />
-
-<b> Entrevistador:<br />  </b>
-Enquanto estava a pesquisar o teu percurso académico houve uma coisa que me interessou, que foi depois de terminares o 9º ano teres seguido ciências, porquê?<br />
-
-<b> Entrevistado:<br />  </b>
-Por causa dos meus pais, por causa de toda a sociedade em que estamos, onde seguir ciências é o mais indicado.<br />
-
-<b> Entrevistador:<br />  </b>
-Houve então uma mudança de rumo nos teus estudos, como é que surgiu essa mudança das ciências para o design?<br />
-
-<b> Entrevistado:<br />  </b>
-Então eu cheguei mesmo ao segundo ano de ciências e não tinha boas notas não gostava daquilo que está a fazer, eu costumo gostar de estudar, que é uma coisa que me interessa aprender e estudar, mas cheguei a uma altura em que disse que não! que não valia a pena estar a continuar nesse curso porque não fazia sentido.<br />
-
-<b> Entrevistador:<br />  </b>
-E depois dessa mudança sentiste que estavas no caminho certo?<br />
-
-<b> Entrevistado:<br />  </b>
-Sim, sim<br />
-
-<b> Entrevistador:<br />  </b>
-E depois foste para onde? Para uma escola chamada vale do rio certo?<br />
-
-<b> Entrevistado:<br />  </b>
-Sim é desenho digital 3D<br />
-
-<b> Entrevistador:<br />  </b>
-Como é que tu vês o design de hoje em dia?<br />
-
-<b> Entrevistado:<br />  </b>
-Eu acho que é uma forma de comunicação e quanto mais anos passam mais sustentável é, porque antigamente era desperdício<br />
-
-<b> Entrevistador:<br />  </b>
-Porque é que decidiste ser freelancer?<br />
-
-<b> Entrevistado:<br />  </b>
-Houve uma altura que eu tentei ter um part-time só para estudar, principalmente aqui na faculdade do Iade, é complicado e dá-me uma liberdade e experiência diferente para lidar com vários clientes<br />
-
-<b> Entrevistador:<br />  </b>
-E tens tido trabalhos?<br />
-
-
-<b> Entrevistado:<br />  </b>
-Sim, quer dizer no início era complicado, mas, entretanto, tive amigos e colegas que queriam alguns trabalhos, ganhei alguns contactos.<br />
-
-<b> Entrevistador:<br />  </b>
-E os amigos pagavam-te?<br />
-
-<b> Entrevistado:<br />  </b>
-Sim, mas pouquinho<br />
-
-<b> Entrevistador:<br />  </b>
-Estiveste em Itália fazer um estágio certo?<br />
-
-<b> Entrevistado:<br />  </b>
-Sim em 2018.<br />
-
-<b> Entrevistador:<br />  </b>
-E era uma empresa de que?<br />
-
-<b> Entrevistado:<br />  </b>
-Era tipo uma empresa como as lojas da tiger em que havia brinquedos e eu tinha que às vezes fazer o 3D de algum brinquedo, ou fazer ilustrações para as redes sociais<br />
-
-<b> Entrevistador:<br />  </b>
-Isso era outra coisa que te queria perguntar, fiquei perdido se tu gostas mais de design ou de 3D.<br />
-
-<b> Entrevistado:<br />  </b>
-Eu experimentei muito o 3D no vale do Rio e adoro fazer 3D só que depois quando entrei na licenciatura do Iade também me apaixonei pelo design e eu gostava muito de juntar os 2 porque às vezes até há coisas que são feitas em 3D e que ficam um máximo só que demora muito mais tempo. Por isso às vezes faço alguns trabalhos em 3D por gosto, mas aquilo que eu mais faço é mesmo design<br />
-
-<b> Entrevistador:<br />  </b>
-Como é que encontraste o estágio, foste tu que foste a procurou, era a escola tinha parcerias?<br />
-
-<b> Entrevistado:<br />  </b>
-Sim, era através da escola<br />
-
-<b> Entrevistador:<br />  </b>
-Agora vamos entrar mais na parte do teu trabalho em design, gostava que me falasses um bocadinho como é que funciona o seu processo criativo, começas com pesquisas começas com o briefing?<br />
-
-Entrevistado – Carolina Bernardo:
-Primeiro agarro no briefing, leio o briefing e aponto no meu caderno de notas que são importantes e depois saio para outra, tenho que sair, porque se eu ficar no computador e pesquisar começo a bloquear e começo a olhar para uma página branca e depois não sai nada, então normalmente eu gosto de ver as posições, gosto de passear, gosto de comunicar com pessoas, mesmo para retirar ideias a partir daí, porque muitas das vezes que era aquilo que eu comecei a entender nos primeiros anos que estudei design era muito à frente do computador e não me saia nada e se eu for tomar um café com os amigos se calhar vai-me sair alguma coisa e a maior parte das vezes sai sempre porque eu acho que se nós vamos comunicar com pessoas a partir do design acho que é a partir das pessoas que vamos retirar o design
-Depois vou tirar as ideias, a partir daí depois faço a minha pesquisa, que faça algum sentido, faço no computador. Depois começo por pôr imagens todas juntas um modboard e tudo o que eu faço tem que estar sempre tudo ao lado um do outro às vezes faço várias hipóteses de vários pósteres por exemplo e normalmente é sempre o primeiro então eu faço o primeiro faço o segundo, mas tenho de estar sempre ao lado de um dos outros senão eu vou me esquecer do que é que eu já fiz
-
-Entrevistador - Gonçalo:
-Como é que sabes que o projeto está concluído?
-
-
-Entrevistado – Carolina Bernardo:
-Não sei, eu acho que tenho um prazo e normalmente consoante o tempo que eu tenho é aquilo que eu consigo fazer, mas se me derem um prazo bastante alargado eu vou fazendo mais coisas
-
-Entrevistador - Gonçalo:
-Tu como trabalhas e estudas ao mesmo tempo, como é que sabes que um trabalho esta finalizado nos dois casos?
-
-Entrevistado – Carolina Bernardo:
-Depende do tempo e do preço, óbvio que gosto sempre de demonstrar tudo aquilo que eu sou capaz de fazer, mas se me derem pouco tempo e um preço menor, eu não vou fazer nada por aí além, por isso normalmente eu sinto que está terminado quando eu vejo que vale a pena aquilo que eu estou a receber
-
-Entrevistador - Gonçalo:
-E quando tens um bloqueio criativo?
-
-Entrevistado – Carolina Bernardo:
-Tento sair, mas às vezes mesmo que eu saia para exposições e mesmo que eu comunico a algumas pessoas há fases em que não consigo retirar nada e às vezes tento inspirar-me noutros trabalhos, às vezes há muita gente que diz que as redes sociais fazem mal e que o stress faz mal, mas para mim às vezes faz muito bem
-
-Entrevistador - Gonçalo:
-Como é que lidas com feedback negativo?
-Se for de um colega?
-
-Entrevistado – Carolina Bernardo:
-Se for um colega por exemplo da faculdade, acho que é positivo estarem a falar comigo e dizerem que não gostam, e eu pergunto sempre o que é que mudarias e é óbvio que meto isso em consideração. Se for se calhar fora da minha área talvez não ligue aquilo que estão a dizer, porque acho que que as pessoas que estão na mesma na área e que tiveram um percurso idêntico é que devem realmente criticar desde que seja uma crítica construtiva, mas não costumo levar muito a peito
-
-Entrevistador - Gonçalo:
-E se for de um superior?
-
-Entrevistado – Carolina Bernardo:
-Ás vezes depende das circunstâncias, mas às vezes fico mais em baixo se for por exemplo um professor acho que normalmente os professores são sempre muito mais profissionais nisso e por exemplo o professor Eduardo corte real, aquilo que eu estava a dizer, que tenho dificuldades em escrever, em ter a minha linguagem académica, e o professor no final das aulas disse mesmo que nós temos de aprender a ler e a escrever, e o professor ter me dito que eu tenho de aprender a ler fez-me ainda ler mais, por isso eu comprei ainda muitos mais livros, óbvio que eu tive uma fase em que foi bastante difícil lidar com aquilo que o professor tinha dito porque pronto tenho 24 anos e não sei ler nem escrever aquilo desmotivou-me um bocadinho e acho que é importante o professor ter me dito isso para ter em consideração se calhar agora para a tese, mas desmotivou-me.
-
-
-Entrevistador - Gonçalo:
-E quando se aproxima uma data-limite de entrega de um trabalho como é que fica o teu estado, estado de espírito?
-
-Entrevistado – Carolina Bernardo:
-Eu entro em stress se não tiver muita coisa feita, eu começo mesmo só pensar no trabalho, sonho com o trabalho e às vezes eu passo dias à frente da minha secretária não faço pausas o que é horrível, pois é importante fazer as pausas e é importante eu ter sempre as minhas fases todas geridas do trabalho que é para não chegar à última semana e desgastar-me toda.
-
-Entrevistador - Gonçalo:
-Qual foi o projeto que mais gostaste de fazer?
-
-
-Entrevistado – Carolina Bernardo:
-Tenho vários projetos. Tenho um projeto com o Fernando que é sobre a crueldade nos animais em que se calhar foi por isso que o professor me chamou, foi muito sentimental porque eu adoro animais e ter que pesquisar coisas sobre a crueldade dos animais é doloroso, houve uma apresentação que eu acho que chorei porque é mesmo horrível e esse foi um dos projetos que me fez crescer, o professor fez me crescer, mesmo que eu olhe para o projeto e não diga que foi o melhor projeto esteticamente que eu já fiz mas que me fez crescer foi dos melhores.
-
-
-Entrevistador - Gonçalo:
-Que fatores e que contribuem para a desmotivação de um projeto estás a fazer
-
-Entrevistado – Carolina Bernardo:
-Ás vezes quando eu peço opiniões, por exemplo pessoas de fora, os meus pais o meu Irmão, e se for negativo eu começo logo por desmotivar porque eu estou já no início e acho que o início é tantas ideias é tanta coisa a acontecer que se for já mau isso desmotiva logo, ou então se eu não conseguir fazer um mod board que faça sentido é um dos fatores que realmente me desmotiva logo,
-
-Entrevistador - Gonçalo:
-E se for por exemplo de um cliente ou imagina que o cliente não gosta do amarelo que tu puseste o que é que fazes?
-
-Entrevistado – Carolina Bernardo:
-Mudo o amarelo
-
-Entrevistador - Gonçalo:
-Porque o cliente é que manda?
-
-Entrevistado – Carolina Bernardo:
-Sim, ou seja eu tinha uma cliente que era de uma loja de café e ela estudou design mas estudou design nos anos 90 e ela disse-me que tinha que ser daquela forma porque o design era daquela forma mas era eu que tinha de mexer nos programas e eu nisso não posso tocar no design mas se eu chegar ao pé do meu cliente e justificar porque é que não pode ser amarelo e se compreender talvez mude e tenho que ter justificado realmente que o amarelo não faz sentido ou esteticamente não fica bem, mas se insistir eu deixo amarelo, porque eu não posso dizer que não ao cliente
-
-Entrevistador - Gonçalo:
-E quais são as dificuldades que encontras no design em geral?
-
-Entrevistado – Carolina Bernardo:
-Eu acho que é fazer coisas novas, há muitas coisas que já são feitas já mesmo por pessoas que não são designers por exemplo David Carson que faz uma coisa completamente nova que é completamente inovadora, que é nós chegarmos e termos a criatividade de fazer algo completamente novo e que as pessoas vejam, acho que isso era um dos maiores obstáculos no design.
-
-Entrevistador - Gonçalo:
-E em ser designer?
-
-Entrevistado – Carolina Bernardo:
-Uma das maiores dificuldades é certas agências ou certas empresas perceberem que o design é importante e aí o emprego é irrelevante, às vezes que podíamos ir para empresas e os clientes não querem que tu sejas fixo, querem que tu sejas freelancer e isso é uma das maiores dificuldades que existe e outra é compreenderem que normalmente o design é feito em equipa, não é assim tão individual quanto isso,
-
-Entrevistador - Gonçalo:
-E o facto de não valorizarem o teu trabalho, de não te pagarem de acordo com o teu trabalho?
-
-Entrevistado – Carolina Bernardo:
-É desmotivador, por exemplo nos Estados Unidos pagas secalhar uns 10000 USD por uma coisa que aqui pagas 1000 euros é completamente ridículo,  há clientes que me pedem uma marca uma identidade toda renovada e eu se calhar peço 350 pelo aquilo que é um manual de normas, e acham caro e isso é muito desmotivante, óbvio que eu estou a estudar e não sou profissional e estou a fazer as coisas baratas e os meus clientes acham que é caro e manter clientes também é difícil, por exemplo eu tenho uma cliente que eu fiz trabalhos para ela Super baratos porque estava ainda na licenciatura e hoje em dia ela pede-me descontos e é muito mais exigente o que é Super complicado.
-
-Entrevistador - Gonçalo:
-Fala-me um bocadinho das exigências dos clientes!
-
-Entrevistado – Carolina Bernardo:
-Ás vezes eu tenho que largar alguns clientes para manter um bocado o meu nome limpo ou a minha carreira como designer limpa, por exemplo há vezes que fazemos trabalhos para impressões eu aviso que não se deve fazer desta forma porque depois na impressão isto fica assim mas depois o cliente exige que seja assim e depois quando vai fazer a impressão liga-me a pedir para eu voltar a fazer para voltar atrás porque não resulta porque não funciona, às vezes os clientes não entendem e eu perco o meu tempo depois de já me terem pago, mas eles exigem o que é Super complicado e existe vários clientes que pedem um trabalho eu faço o trabalho e depois de eu ter pago vão perdindo coisas pequeninas aos poucos
-
-Entrevistador - Gonçalo:
-E imagina que quando estás a fazer um determinado trabalho estás triste isso traduz-se no teu trabalho? As emoções traduzem-se no trabalho?
-
-Entrevistado – Carolina Bernardo:
-Sim principalmente as cores eu acho que quando estou numa boa fase eu faço projetos coloridos que eu adoro cores que é uma das minhas coisas favoritas no design que é comunicar com as cores e ter estética a partir das cores, mas quando eu estou numa má fase uso pastéis, acho que realmente aquilo que eu estou a viver vai sempre expor-se nos meus projetos
-
-Entrevistador - Gonçalo:
-Quando tu começas um trabalho com elevadas expectativas e quando terminaste não era aquilo que tu querias, como é que ficas?
-
-Entrevistado – Carolina Bernardo:
-Isso é uma das coisas que me desmotiva bastante, é eu ver um briefing achar que é inspirador e tem muito potencial e depois eu fazer um projeto que não respondeu às minhas expectativas isso é uma das coisas que eu não gosto, que eu tento não fazer, é olhar para o briefing e ter grandes expectativas das minhas competências.
-
-Entrevistador - Gonçalo:
-E em quem é que te inspiras para fazer os teus trabalhos? Tens influências?
-
-Entrevistado – Carolina Bernardo:
-O David Carson, Paula Shair, porque eu gosto muito de tipografia, gosto de trabalhar a partir da tipografia e das cores, esses 3 são um dos principais em que eu vou vendo os projetos mesmo que eu já os conheço eu vou sempre vendo,
-
-Entrevistador - Gonçalo:
-Nos teus trabalhos pelo que eu reparei, tentas manter sempre a mesma linha, ou sejas tentas deixar uma identidade tua nos trabalhos certo?
-
-Entrevistado – Carolina Bernardo:
-Sim, por exemplo o que está no Instagram foi para uma disciplina da professora Elizabeth Gomes e ela pediu-me para fazer 3 ilustrações e pediu-me 50 inspirações, eu adorei fazer este trabalho, eu consegui arranjar uma coisa minha que não fosse tão inspirada noutros projetos e que fosse mais criativa, entretanto coloquei este trabalho no Instagram porque achava que realmente me identificava, mas não sei se se algum dia utilizaria aquele tipo de design para clientes
-
-Entrevistador - Gonçalo:
-Quais são as diferenças entre trabalhar sozinha ou em equipa?
-
-Entrevistado – Carolina Bernardo:
-Eu acho que quero eu prefiro trabalhar em equipa principalmente no design, em 3D não tanto, mas às vezes até era bom, mas no design eu acho necessário haver várias pessoas com várias opiniões que estejam na mesma área porque se nós estamos numa área de comunicação e várias pessoas entendem as coisas de várias formas é importante haver várias opiniões, isso às vezes na faculdade é complicado trabalhar em grupos, porque há pessoas que se esforçam e outras não mas eu sinto que quando eu não comunico com alguém que esteja na área sobre um projeto que estamos os 2 interessados em que seja realizada e tenha potencial, se for só eu, vai sempre falhar de alguma forma, porque sou só uma, posso pedir opiniões a outras pessoas, mas não estão tão dedicadas quanto estaria outra pessoa comigo numa equipa e acho que isso é muito importante por isso é que digo que há empresas que pensam que é preciso só um designer, na realidade é sempre preciso uma equipa.
-
-Entrevistador - Gonçalo:
-E se estiveres num grupo e houver pessoas que não trabalham?
-
-Entrevistado – Carolina Bernardo:
-Na faculdade eu comunicava com a pessoa e dizia olha trabalha faz isto, etc... eu hoje já não faço isso, hoje se a pessoa não está interessada eu não comunico que é necessário, mas eu não sendo sequer líder ou diretora de arte acho que não tenho essa necessidade e acho que já somos crescidos o suficiente para ter que comunicar que as pessoas têm que fazer porque é o nosso trabalho a e acho que acaba por ser desgastante para mim é um desperdício de tempo, se a pessoa não quer fazer não faz entretanto no final se não aparecer o nome no trabalho olha paciência.
-
-Entrevistador - Gonçalo:
-E tu o que é que gostavas de fazer?
-
-Entrevistado – Carolina Bernardo:
-Eu gostava de ter um percurso de agências primeiro e depois de ter um atelier e gostava de terminar como professora, muita gente acha um bocado estranho, mas é o meu maior objetivo é acabar como uma professora nas faculdades e realmente ter a possibilidade de de dar o meu conhecimento tal como o professor Fernando é das pessoas que eu mais admiro e o professor Fernando Oliveira também, que chegam à sala e conseguem comunicar e conseguem dar aquilo tudo que têm
-
-
-
-Entrevistador - Gonçalo:
-Podes me falar dos teus estados de espírito durante a realização de um trabalho?
-
-Entrevistado – Carolina Bernardo:
-Vou dar o exemplo da minha cliente Leonor que eu tive que deixar de atender os telefonemas, eu conheci-a quando estava a passear a minha cadela, eu estava a passear os meus cães conheci-a porque ela também tinha cães e neste momento estou Super contente porque ela estava a  pedir-me coisas de design e por isso estava contente estava entusiasmada e isso foi o primeiro passo, entretanto ela começou por dizer que mandava mails etc só que depois demorou a responder e aí achei que estava de alguma forma a criar uma grande expectativa e aí tive que cortar as expectativas então fiquei mesmo sem expectativas fiquei um bocadinho desmotivada e achava que não ia chegar a lado nenhum porque não tinha comunicação com ela. Entretanto ela ligou-me e fomos tomar um café e aí já fiquei mais esperançosa porque ela já me tinha falado sobre o trabalho e já me tinha dado o briefing e percebi que no briefing eu não podia dar grandes ideias por isso eu fiquei a pensar, pronto, que eu de alguma forma era uma ferramenta não muito de forma criativa mas ela pediu umas opiniões, entretanto no processo como design já estava feito ela ia me pedindo algumas opiniões do design e eu mudava alguma parte do design e conseguia ser criativa, o que me deixava pronto contente por ter algum impacto no trabalho por isso ficava contente achava que era uma boa experiência porque era uma coisa nova. Entretanto fui fazendo, estava tudo a correr muito bem e eu nunca faço nada sem dar o orçamento e na altura em que dou o orçamento fico sempre nervosa e com receio do feedback do cliente, na altura do feedback do orçamento, ela respondeu-me com um emoji a rir, deu-me a entender que era caro, pelo menos foi o que eu percebi e aqui fiquei com dúvidas sobre as minhas competências no orçamento, é difícil dar um orçamento é um bocado complicado até porque não tenho experiência e ai comecei a ficar nervosa porque podia não chegar a receber, já tinha perdido tempo, mas ela disse que sim acabou por aceitar o orçamento e fiquei contente mas fico sempre com o pé atrás. Foi feito todo o processo correu tudo bem e no desenvolvimento do projeto correu tudo bem só que depois na parte da impressão foi onde me desmotivou e fez-me repensar em relação a ser frio e às vezes até penso se realmente vale a pena ter clientes ou mante-los, óbvio que ser freelancer ganha-se muito mais do que estar numa agência mas é muito complicado manter um cliente.
-
-
-Tenho outro um cliente que é o meu favorito é de um stand em que ele pede paga na hora, é obvio que eu nunca abuso dos meus clientes, mas tenho de pagar a minha formação e alguns clientes pedem mais coisas e não pagam e não têm isso em consideração, cheguei a conclusão que às vezes temos de rejeitar alguns clientes porque o problema não es tu são eles.
-
-Entrevistador - Gonçalo:
-Existem 5 Estados de emoções básicas a Raiva o medo a tristeza a alegria e o afeto, como é que te sentiste ao longo do projeto por exemplo da tua cliente Leonor?
-
-Entrevistado – Carolina Bernardo:
-Então é óbvio que estava com alegria logo no início é sempre bom, entretanto fiquei um bocado triste pela falta de comunicação não sabia se realmente iria avançar ou não depois quando recebi o briefing fiquei outra vez com alegria e depois na altura do orçamento a resposta dela talvez um bocadinho de medo no início e depois nojo a seguir porque eu fiquei a entender que na realidade o preço que eu estava a dar era barato para ela mas mesmo assim ela aceitou assim, ainda melhor para ela e há clientes que não fazem isso há clientes que dizem que não isto é barato eu não acho que isto mereca este preço e deves avançar com outro preço, entretanto depois no desenvolvimento deu-me alegria porque estava tudo a correr bem na parte do designer já estava a aceitar as minhas ideias, na parte do pagamento também alegria, na impressão é que já me deu um bocadinho mais de raiva porque já tinha falado com ela sobre as coisas e mesmo assim ela não me ouviu e depois a seguir ela pediu mais coisas.
-
-</p>
-
-<section class="posts">
-	<article>
-		<header>
-
-
-		</header>
-		<a href="#" class="image fit"><img src="" alt="" /></a>
-
-	</article>
-
-
-
-
-
-
-
-
-	<h3>Entrevista realizado por:<br />
-
-	Gonçalo Brás
-
-</h3>
-
-						</section>
-
-
-
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li><li>Distributor: <a href="https://themewagon.com">ThemeWagon</a></li></ul>
 					</div>
-
-			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
@@ -364,6 +162,149 @@ Então é óbvio que estava com alegria logo no início é sempre bom, entretant
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				// Dados das 100 aulas de yoga
+				const aulas = [
+					{ numero: 1, titulo: "Yoga para Iniciantes", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 2, titulo: "Aquecimento Matinal", nivel: "Iniciante", duracao: "15 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 3, titulo: "Yoga para Flexibilidade", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 4, titulo: "Respiração e Meditação", nivel: "Iniciante", duracao: "10 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 5, titulo: "Yoga Vinyasa Básico", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 6, titulo: "Alongamento Suave", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 7, titulo: "Yoga para Costas", nivel: "Intermediário", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 8, titulo: "Fortalecimento do Core", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 9, titulo: "Yoga Noturno para Dormir", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 10, titulo: "Asanas Fundamentais", nivel: "Iniciante", duracao: "35 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 11, titulo: "Yoga Dinâmico", nivel: "Intermediário", duracao: "40 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 12, titulo: "Equilíbrio e Estabilidade", nivel: "Intermediário", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 13, titulo: "Yoga para Stress", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 14, titulo: "Pranayama Avançado", nivel: "Avançado", duracao: "15 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 15, titulo: "Yoga para Quadril", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 16, titulo: "Inversões Básicas", nivel: "Intermediário", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 17, titulo: "Yoga para Pernas", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 18, titulo: "Meditação Guiada", nivel: "Iniciante", duracao: "15 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 19, titulo: "Yoga Yin", nivel: "Iniciante", duracao: "45 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 20, titulo: "Yoga Restaurativo", nivel: "Iniciante", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 21, titulo: "Aquecimento Dinâmico", nivel: "Intermediário", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 22, titulo: "Yoga para Ombros", nivel: "Intermediário", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 23, titulo: "Sequência Solar", nivel: "Iniciante", duracao: "15 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 24, titulo: "Yoga para Pescoço", nivel: "Iniciante", duracao: "10 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 25, titulo: "Vinyasa Flow", nivel: "Intermediário", duracao: "40 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 26, titulo: "Yoga para Energia", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 27, titulo: "Yoga Lunar", nivel: "Iniciante", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 28, titulo: "Fortalecimento de Braços", nivel: "Intermediário", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 29, titulo: "Yoga para Digestão", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 30, titulo: "Chakras e Energia", nivel: "Intermediário", duracao: "35 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 31, titulo: "Yoga Matinal Rápido", nivel: "Iniciante", duracao: "10 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 32, titulo: "Yoga para Ansiedade", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 33, titulo: "Ashtanga Yoga", nivel: "Avançado", duracao: "60 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 34, titulo: "Yoga para Mulheres", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 35, titulo: "Yoga Pré-Natal", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 36, titulo: "Yoga Pós-Natal", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 37, titulo: "Yoga para Crianças", nivel: "Iniciante", duracao: "15 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 38, titulo: "Yoga em Cadeira", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 39, titulo: "Yoga para Idosos", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 40, titulo: "Yoga Intenso", nivel: "Avançado", duracao: "50 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 41, titulo: "Yoga para Atletas", nivel: "Intermediário", duracao: "40 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 42, titulo: "Yoga e Pilates", nivel: "Intermediário", duracao: "35 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 43, titulo: "Yoga para Corredores", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 44, titulo: "Yoga para Ciclistas", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 45, titulo: "Yoga para Nadadores", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 46, titulo: "Yoga Terapêutico", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 47, titulo: "Yoga para Migrânea", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 48, titulo: "Yoga para Artrite", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 49, titulo: "Yoga para Diabetes", nivel: "Iniciante", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 50, titulo: "Yoga para Hipertensão", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 51, titulo: "Yoga Detox", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 52, titulo: "Yoga para Imunidade", nivel: "Intermediário", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 53, titulo: "Yoga para Circulação", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 54, titulo: "Yoga para Respiração", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 55, titulo: "Yoga para Coração", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 56, titulo: "Yoga Facial", nivel: "Iniciante", duracao: "15 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 57, titulo: "Yoga para Pele", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 58, titulo: "Yoga para Cabelo", nivel: "Iniciante", duracao: "15 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 59, titulo: "Yoga para Unhas", nivel: "Iniciante", duracao: "10 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 60, titulo: "Yoga para Olhos", nivel: "Iniciante", duracao: "10 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 61, titulo: "Yoga Noturno Profundo", nivel: "Iniciante", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 62, titulo: "Yoga Matinal Energético", nivel: "Intermediário", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 63, titulo: "Yoga à Tarde", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 64, titulo: "Yoga Vespertino", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 65, titulo: "Yoga Noturno Calmo", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 66, titulo: "Yoga de Fim de Semana", nivel: "Intermediário", duracao: "45 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 67, titulo: "Yoga Segunda-Feira", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 68, titulo: "Yoga Terça-Feira", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 69, titulo: "Yoga Quarta-Feira", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 70, titulo: "Yoga Quinta-Feira", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 71, titulo: "Yoga Sexta-Feira", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 72, titulo: "Yoga Sábado", nivel: "Intermediário", duracao: "45 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 73, titulo: "Yoga Domingo", nivel: "Iniciante", duracao: "40 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 74, titulo: "Yoga Primavera", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 75, titulo: "Yoga Verão", nivel: "Intermediário", duracao: "35 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 76, titulo: "Yoga Outono", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 77, titulo: "Yoga Inverno", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 78, titulo: "Yoga Lunar Completo", nivel: "Intermediário", duracao: "40 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 79, titulo: "Yoga Solar Completo", nivel: "Intermediário", duracao: "40 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 80, titulo: "Yoga Equinócio", nivel: "Intermediário", duracao: "35 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 81, titulo: "Yoga Solstício", nivel: "Intermediário", duracao: "35 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 82, titulo: "Yoga Plenilúnio", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 83, titulo: "Yoga Lua Nova", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 84, titulo: "Yoga Quarto Crescente", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 85, titulo: "Yoga Quarto Minguante", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 86, titulo: "Yoga Mantras", nivel: "Iniciante", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 87, titulo: "Yoga Mudras", nivel: "Iniciante", duracao: "20 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 88, titulo: "Yoga Bandhas", nivel: "Intermediário", duracao: "25 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 89, titulo: "Yoga Kriyas", nivel: "Intermediário", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 90, titulo: "Yoga Tantra", nivel: "Avançado", duracao: "45 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 91, titulo: "Yoga Kundalini", nivel: "Avançado", duracao: "50 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 92, titulo: "Yoga Hatha", nivel: "Intermediário", duracao: "40 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 93, titulo: "Yoga Bhakti", nivel: "Iniciante", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 94, titulo: "Yoga Karma", nivel: "Iniciante", duracao: "30 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 95, titulo: "Yoga Jnana", nivel: "Intermediário", duracao: "35 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 96, titulo: "Yoga Raja", nivel: "Avançado", duracao: "45 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 97, titulo: "Yoga Integral", nivel: "Intermediário", duracao: "50 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 98, titulo: "Yoga Holístico", nivel: "Intermediário", duracao: "45 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 99, titulo: "Yoga Transformador", nivel: "Avançado", duracao: "60 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" },
+					{ numero: 100, titulo: "Yoga Iluminação", nivel: "Avançado", duracao: "75 min", url: "https://www.youtube.com/watch?v=Wa0LyfBY4Ow" }
+				];
+
+				// Função para renderizar as aulas
+				// Função para renderizar as aulas com design simples
+function renderizarAulas(aulasParaMostrar = aulas) {
+	const container = document.getElementById('aulasContainer');
+	container.innerHTML = '';
+
+	aulasParaMostrar.forEach(aula => {
+		const card = document.createElement('div');
+		card.className = 'aula-card';
+
+		card.innerHTML = `
+			<h3>Aula ${aula.numero}</h3>
+			<a href="${aula.url}" class="button" target="_blank">Assistir</a>
+		`;
+
+		container.appendChild(card);
+	});
+}
+
+// Função de filtro (mantém barra de pesquisa)
+document.getElementById('filtroAulas').addEventListener('keyup', function(e) {
+	const termo = e.target.value.toLowerCase();
+
+	const aulasFiltradas = aulas.filter(aula =>
+		aula.numero.toString().includes(termo) ||
+		aula.titulo.toLowerCase().includes(termo) ||
+		aula.nivel.toLowerCase().includes(termo)
+	);
+
+	renderizarAulas(aulasFiltradas);
+});
+
+// Renderizar todas as aulas ao carregar
+document.addEventListener('DOMContentLoaded', function() {
+	renderizarAulas();
+});
+			</script>
 
 	</body>
 </html>
