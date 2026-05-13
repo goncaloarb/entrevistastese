@@ -56,9 +56,26 @@ const videos = [
   'https://youtu.be/rC2npY28fto'
 ];
 
-const aulas = [];
 
-for (let i = 1; i <= 500; i++) {
+
+const aulas = [
+
+  {
+    numero: 1,
+    titulo: 'Yoga Total',
+    nivel: 'Iniciante',
+    categoria: 'Aula Completa',
+    duracao: '58 min',
+    url: 'https://youtu.be/8nd2bX18vzk',
+    descricao: 'Uma prática suave para relaxar corpo e mente.'
+  
+  }
+
+  
+
+];
+
+for (let i = 2; i <= 500; i++) {
 
   const titulo = titulos[i % titulos.length];
   const nivel = niveis[i % niveis.length];
