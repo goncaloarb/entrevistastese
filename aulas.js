@@ -16,7 +16,7 @@ const categorias = [
 
 const niveis = [
   'Iniciante',
-  'Intermediário',
+  'Intermediario',
   'Avançado'
 ];
 
@@ -73,7 +73,7 @@ const aulas = [
   {
     numero: 2,
     titulo: 'Amor profundo',
-    nivel: 'Iniciante',
+    nivel: 'Intermédio',
     categoria: 'Yoga Total',
     duracao: '54 min',
     url: 'https://youtu.be/BxTVmIHV2Kc',
@@ -83,7 +83,7 @@ const aulas = [
   {
     numero: 3,
     titulo: 'Shanti Namaskar',
-    nivel: 'Intermédio',
+    nivel: 'Iniciante',
     categoria: 'Flexibilidade',
     duracao: '38 min',
     url: 'https://youtu.be/ANOLju4ktZY',
@@ -91,19 +91,19 @@ const aulas = [
   },
   {
     numero: 4,
-    titulo: 'Yoga para Dormir Melhor',
-    nivel: 'Iniciante',
+    titulo: 'Planeta saudável',
+    nivel: 'Intermédio',
     categoria: 'Sono',
-    duracao: '18 min',
+    duracao: '54 min',
     url: 'https://youtu.be/EGAvMognwy4',
-    descricao: 'Sequência calma para melhorar o sono.'
+    descricao: 'Uma aula de yoga focada em equilíbrio, bem-estar consciente entre o corpo, mente e natureza.'
   },
   {
     numero: 5,
     titulo: 'Yoga para Ansiedade',
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
-    duracao: '22 min',
+    duracao: '52 min',
     url: 'https://youtu.be/DS7Tz5eh9dA',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
@@ -113,7 +113,7 @@ const aulas = [
     titulo: 'Yoga para Dormir Melhor',
     nivel: 'Iniciante',
     categoria: 'Sono',
-    duracao: '18 min',
+    duracao: '52 min',
     url: 'https://youtu.be/I5eYFc_sICs',
     descricao: 'Sequência calma para melhorar o sono.'
   },
@@ -123,7 +123,7 @@ const aulas = [
     titulo: 'Yoga para Alongamento',
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
-    duracao: '30 min',
+    duracao: '54 min',
     url: 'https://youtu.be/ql9gOCChnMk',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
@@ -132,7 +132,7 @@ const aulas = [
     titulo: 'Yoga para Ansiedade',
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
-    duracao: '22 min',
+    duracao: '1h 4min',
     url: 'https://youtu.be/J1v8cmb4ubE',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
@@ -142,7 +142,7 @@ const aulas = [
     titulo: 'Yoga para Dormir Melhor',
     nivel: 'Iniciante',
     categoria: 'Sono',
-    duracao: '18 min',
+    duracao: '1h 4min',
     url: 'https://youtu.be/KJasf_IeL4Y',
     descricao: 'Sequência calma para melhorar o sono.'
   },
