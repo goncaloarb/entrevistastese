@@ -768,6 +768,14 @@
 
     let filtroAtual = 'todos';
 
+    function aulaVista(id) {
+  return localStorage.getItem(`aula_${id}`) === 'vista';
+}
+
+function marcarComoVista(id) {
+  localStorage.setItem(`aula_${id}`, 'vista');
+}
+
     function getYoutubeThumbnail(url) {
       const regExp = /(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\n?#]+)/;
       const match = url.match(regExp);
@@ -835,11 +843,17 @@
               ${aula.descricao}
             </p>
 
-            <a href="${aula.url}" target="_blank">
-              <button class="watch-btn">
-                ▶ Ver Aula
-              </button>
-            </a>
+            <a href="${aula.url}" 
+   target="_blank"
+   onclick="marcarComoVista(${aula.numero})">
+
+  <button class="watch-btn">
+    ${aulaVista(aula.numero)
+      ? '✓ Visualizada'
+      : '▶ Ver Aula'}
+  </button>
+
+</a>
 
           </div>
 
