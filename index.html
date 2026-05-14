@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
   <style>
 
@@ -491,7 +492,63 @@
       }
 
     }
+.whatsapp-float {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #25D366;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  z-index: 9999;
+  box-shadow: 0 20px 40px rgba(37,211,102,0.35);
+  transition: 0.3s ease;
+}
 
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+.footer-modern {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 80px 10%;
+  flex-wrap: wrap;
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-box p,
+.footer-box a {
+  color: rgba(255,255,255,0.7);
+}
+
+.social-icons {
+  display: flex;
+  gap: 14px;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  width: 50px;
+  height: 50px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
   </style>
 </head>
 <body>
@@ -641,27 +698,62 @@
   <!-- FOOTER -->
 
   <footer id="contacto">
-    <div class="container footer-content">
 
-      <div>
-        <div class="logo" style="margin-bottom: 18px;">
-          Áshrama <span>SAC</span>
-        </div>
+  <div class="footer-modern">
 
-        <p>
-          Um espaço moderno criado para aprofundares a tua prática,
-          encontrares equilíbrio e cuidares do teu bem-estar através do Yoga.
-        </p>
-      </div>
+    <div class="footer-box">
 
-      <div>
-        <p>
-          © 2026 Áshrama SAC • Todos os direitos reservados.
-        </p>
+      <h2>Áshrama SAC</h2>
+
+      <p>
+        Yoga online para equilíbrio, bem-estar e transformação.
+      </p>
+
+      <div class="social-icons">
+
+        <a href="https://www.instagram.com/_yogasac/">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="https://www.facebook.com/AshramaDeSantoAntonioDosCavaleirosCentroDoYoga">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://www.tiktok.com/@ashramasac?lang=pt">
+          <i class="fab fa-tiktok"></i>
+        </a>
+
       </div>
 
     </div>
-  </footer>
+
+    <div class="footer-box">
+
+      <h3>Links</h3>
+
+      <a href="#inicio">Início</a>
+      <a href="#aulas">Aulas</a>
+      <a href="#contacto">Contacto</a>
+
+    </div>
+
+    <div class="footer-box">
+
+      <h3>Contacto</h3>
+
+      <a href="mailto:info@ashrama.pt">
+        yogasantoantoniocavaleiros.pt
+      </a>
+
+      <a href="tel:+351929331180">
+        +351 929331180
+      </a>
+
+    </div>
+
+  </div>
+
+</footer>
 
   <script src="aulas.js"></script>
   
@@ -799,7 +891,13 @@
     renderizarAulas(aulas);
 
   </script>
-
+<a
+  href="https://wa.me/351929331180"
+  class="whatsapp-float"
+  target="_blank"
+>
+  <i class="fab fa-whatsapp"></i>
+</a>
 </body>
 </html>
 ```
