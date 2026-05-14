@@ -62,32 +62,32 @@ const aulas = [
 
   {
     numero: 1,
-    titulo: 'Espalhar a luz por cada canto do Planeta',
+    titulo: 'Espalhar a luz',
     nivel: 'Iniciante',
     categoria: 'Yoga Total',
     duracao: '42 min',
     url: 'https://youtu.be/8nd2bX18vzk',
-    descricao: 'Uma prática suave durante o confinamento.'
+    descricao: 'Prática para expandir luz, consciência e energia positiva por todo o planeta.'
   },
 
   {
     numero: 2,
-    titulo: 'Envolver o Planeta terra em amor profundo',
+    titulo: 'Amor profundo',
     nivel: 'Iniciante',
     categoria: 'Yoga Total',
     duracao: '54 min',
     url: 'https://youtu.be/BxTVmIHV2Kc',
-    descricao: 'Uma prática suave durante o confinamento.'
+    descricao: 'Prática de conexão e expansão do amor coletivo para a harmonia da Terra.'
   },
 
   {
     numero: 3,
-    titulo: 'Yoga para Alongamento',
+    titulo: 'Shanti Namaskar',
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
-    duracao: '30 min',
+    duracao: '38 min',
     url: 'https://youtu.be/ANOLju4ktZY',
-    descricao: 'Aula focada em mobilidade e alongamento.'
+    descricao: 'Shanti Namaskara é uma prática suave de movimento e respiração para trazer equilíbrio e paz interior.'
   },
   {
     numero: 4,
@@ -1041,7 +1041,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Yoga Total',
     duracao: '42 min',
-    url: 'https://youtu.be/8nd2bX18vzk',
+    url: 'https://youtu.be/hO0CkqLMbZw',
     descricao: 'Uma prática suave durante o confinamento.'
   },
 
@@ -1051,7 +1051,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Yoga Total',
     duracao: '54 min',
-    url: 'https://youtu.be/BxTVmIHV2Kc',
+    url: 'https://youtu.be/AVAapCvg2bw',
     descricao: 'Uma prática suave durante o confinamento.'
   },
 
@@ -1061,7 +1061,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/ANOLju4ktZY',
+    url: 'https://youtu.be/3fpan7OQpd8',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1070,7 +1070,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/EGAvMognwy4',
+    url: 'https://youtu.be/HIwf81ZY1xM',
     descricao: 'Sequência calma para melhorar o sono.'
   },
   {
@@ -1079,7 +1079,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/DS7Tz5eh9dA',
+    url: 'https://youtu.be/gUwVaMlytKg',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1089,7 +1089,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/I5eYFc_sICs',
+    url: 'https://youtu.be/7B6b4V3mxM4',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1099,7 +1099,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/ql9gOCChnMk',
+    url: 'https://youtu.be/sI8hQ71S5dk',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1108,7 +1108,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/J1v8cmb4ubE',
+    url: 'https://youtu.be/MaXmqJLLAVs',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1118,7 +1118,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/KJasf_IeL4Y',
+    url: 'https://youtu.be/TD4-sTa3axE',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1128,7 +1128,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/rC2npY28fto',
+    url: 'https://youtu.be/JF_AZFxAyck',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1137,7 +1137,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/RMnmmvSxflA',
+    url: 'https://youtu.be/l6kuWYCBjz8',
     descricao: 'Sequência calma para melhorar o sono.'
   },
   {
@@ -1146,7 +1146,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/ZmxHyTuXo38',
+    url: 'https://youtu.be/gXuV-yA61DU',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1156,7 +1156,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/m8npmHoB7gc',
+    url: 'https://youtu.be/BRXoiZxxa8g',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1166,7 +1166,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '1h 6 min',
-    url: 'https://youtu.be/wRrly9lmr0Q',
+    url: 'https://youtu.be/kdxjN2h1sdE',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1175,7 +1175,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/pUr3J7MSYgM',
+    url: 'https://youtu.be/iz9mZhu6TnU',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1185,7 +1185,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/zzeLAXdeOjQ',
+    url: 'https://youtu.be/XMOIn1fnjD4',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1195,7 +1195,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/pAZ08zhwA2E',
+    url: 'https://youtu.be/yTxBxEqo4gk',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1204,7 +1204,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/iH3FKJTGhfw',
+    url: 'https://youtu.be/GTV51CGG9VY',
     descricao: 'Sequência calma para melhorar o sono.'
   },
   {
@@ -1213,7 +1213,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/l2GxRkOB-WA',
+    url: 'https://youtu.be/4ofZirTPHkM',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1223,7 +1223,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/6mr21Rjgawk',
+    url: 'https://youtu.be/NpLRXnv_8QY',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1233,7 +1233,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/4_ZWzNbBqpU',
+    url: 'https://youtu.be/V0ixIx-YKdk',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1242,7 +1242,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/b1R_yTzO8WA',
+    url: 'https://youtu.be/7dCu4-Wa1D0',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1252,7 +1252,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/aoqAX-nW1B4',
+    url: 'https://youtu.be/1Iio-wO12ds',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1262,7 +1262,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/KvAz5YIXpuI',
+    url: 'https://youtu.be/ttGXbKC5ou4',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1271,7 +1271,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/qNLFaXw_ud8',
+    url: 'https://youtu.be/Af0g-UF2oZQ',
     descricao: 'Sequência calma para melhorar o sono.'
   },
   {
@@ -1280,7 +1280,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/PyMsGfUbF50',
+    url: 'https://youtu.be/a0kp_TIBGaw',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1290,7 +1290,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/XAPXhh6lM54',
+    url: 'https://youtu.be/4umhKEcA3tk',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1300,7 +1300,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '1h 6 min',
-    url: 'https://youtu.be/eeaY-oFERpg',
+    url: 'https://youtu.be/cP77h2nmmAU',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1309,7 +1309,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/YOAGx0G91nA',
+    url: 'https://youtu.be/DXD14rYjJOA',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1319,7 +1319,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/4S7h6sDpZ3A',
+    url: 'https://youtu.be/FHODPE77MsU',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1329,7 +1329,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/xVhPeUanzRo',
+    url: 'https://youtu.be/tXCqC8Ro08I',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1338,7 +1338,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/P42L-wS3XSY',
+    url: 'https://youtu.be/oVe7lXryZkQ',
     descricao: 'Sequência calma para melhorar o sono.'
   },
   {
@@ -1347,7 +1347,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/dEYDmk7T9vc',
+    url: 'https://youtu.be/u6fw0752MM8',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1357,7 +1357,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/YJngynpSqGY',
+    url: 'https://youtu.be/fl4KossfuPQ',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1367,7 +1367,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/HFg6oPfmgFU',
+    url: 'https://youtu.be/jqEpk7b9ubo',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1376,7 +1376,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/5hIpYIG9KVw',
+    url: 'https://youtu.be/vwHSyWgTBo8',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1386,7 +1386,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/RH4uet0NlxA',
+    url: 'https://youtu.be/J2q6V46Ba70',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1396,7 +1396,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/9Mdsi_oUnsE',
+    url: 'https://youtu.be/vOTh8oeAVbs',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1405,7 +1405,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/6Kw9NzAIHVU',
+    url: 'https://youtu.be/6BbQ8MSpUe0',
     descricao: 'Sequência calma para melhorar o sono.'
   },
   {
@@ -1414,7 +1414,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/d5vaKzMTAx8',
+    url: 'https://youtu.be/Xu-F2SOwAtY',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1424,7 +1424,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/tVU3L3UlvrE',
+    url: 'https://youtu.be/CijTugv7dWI',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1434,7 +1434,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '1h 6 min',
-    url: 'https://youtu.be/zbWGtUdZjdA',
+    url: 'https://youtu.be/qY_4ZY0rGbk',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1443,7 +1443,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/HtwIuFbqIfY',
+    url: 'https://youtu.be/vMDQ0VOOaWo',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1453,7 +1453,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/BR3LA41U-dg',
+    url: 'https://youtu.be/EM6cyGnysQw',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1463,7 +1463,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/Ufsz3BQbpyE',
+    url: 'https://youtu.be/nwWNTf8k0BA',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1472,7 +1472,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/c6ZFYwKF-yE',
+    url: 'https://youtu.be/jeBzpFF9m9Q',
     descricao: 'Sequência calma para melhorar o sono.'
   },
   {
@@ -1481,7 +1481,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/rWGL_hzt8Q4',
+    url: 'https://youtu.be/rrgpZ5Vera4',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1491,7 +1491,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/2GYPDZeoHR0',
+    url: 'https://youtu.be/j35njkqyQl4',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1501,7 +1501,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/WJetEEvdVVE',
+    url: 'https://youtu.be/Ty41M2KSIe8',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1510,7 +1510,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/atZI2jrPPA0',
+    url: 'https://youtu.be/HshsziKfZHU',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1520,7 +1520,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/BOjbd8IK-BM',
+    url: 'https://youtu.be/fub0JNXzoaI',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1530,7 +1530,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/rPBZAcGgPIE',
+    url: 'https://youtu.be/1QBs2vYiO2A',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1539,7 +1539,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/OcjJ-V7mk7M',
+    url: 'https://youtu.be/IahV6-JLNTc',
     descricao: 'Sequência calma para melhorar o sono.'
   },
   {
@@ -1548,7 +1548,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/_lr9lh6HSnE',
+    url: 'https://youtu.be/Q35XJ2K1rdA',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1558,7 +1558,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/h7zJG5_ziM4',
+    url: 'https://youtu.be/mXFflLw73XI',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1568,7 +1568,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '1h 6 min',
-    url: 'https://youtu.be/6832UHUWgFk',
+    url: 'https://youtu.be/kC0uI0IGRJE',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1577,7 +1577,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/ruy8wZFNuFc',
+    url: 'https://youtu.be/H4h_BrHQL5Y',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1587,7 +1587,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '1h 6 min',
-    url: 'https://youtu.be/DIBJvEf5B0E',
+    url: 'https://youtu.be/A0QDN1LqReg',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1596,7 +1596,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/YXA_CFywuho',
+    url: 'https://youtu.be/-v8nRyQAdq8',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1606,7 +1606,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '1h 6 min',
-    url: 'https://youtu.be/ATO1p3KWKO0',
+    url: 'https://youtu.be/vLFIlusQS7s',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1615,7 +1615,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/qz3dGLb06s4',
+    url: 'https://youtu.be/fPGdIdz8FvA',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1625,7 +1625,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/ESj0Vgv8Pw4',
+    url: 'https://youtu.be/QV2Tp2u9vm8',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1635,7 +1635,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/ipIDg7dYeg4',
+    url: 'https://youtu.be/6x2LYcP6dhA',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1644,7 +1644,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/9se875E4cro',
+    url: 'https://youtu.be/4ocpFM7PEe8',
     descricao: 'Sequência calma para melhorar o sono.'
   },
   {
@@ -1653,7 +1653,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/r76Eo2vlhsI',
+    url: 'https://youtu.be/QNCggRKR4zs',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1663,7 +1663,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/XAqYFZzCWfY',
+    url: 'https://youtu.be/AkVKOW9okLg',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1673,7 +1673,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/zg56A_oNhso',
+    url: 'https://youtu.be/m37-IeH0s0k',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1682,7 +1682,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/0s3h9fHmtC8',
+    url: 'https://youtu.be/Y0OWxsO6h5Q',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1692,7 +1692,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/b_wAZ4X6kvU',
+    url: 'https://youtu.be/lojBusCBAU8',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1702,7 +1702,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/bmKvX7XjV3w',
+    url: 'https://youtu.be/or3i_D1zK7E',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1711,7 +1711,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/Jh3aRU6XFgE',
+    url: 'https://youtu.be/CQA9ZnmbqVI',
     descricao: 'Sequência calma para melhorar o sono.'
   },
   {
@@ -1720,7 +1720,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/V6u8QFZ_XsY',
+    url: 'https://youtu.be/H3-YAcKp358',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1730,7 +1730,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/xiGCm_atk4k',
+    url: 'https://youtu.be/PLEnhMgMy38',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1740,7 +1740,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '1h 6 min',
-    url: 'https://youtu.be/K062UmcGheY',
+    url: 'https://youtu.be/HiOe7tAnFvM',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1749,7 +1749,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/uCu0xDN0iOg',
+    url: 'https://youtu.be/JOdzNat2dJM',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1759,7 +1759,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/dyhhdYBdHxU',
+    url: 'https://youtu.be/hhWz1OlSAmg',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1769,7 +1769,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/QRJIeVuUZf0',
+    url: 'https://youtu.be/AMy5OsNraL8',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1778,7 +1778,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/IBTiR8jXoQw',
+    url: 'https://youtu.be/Fcv5xHw_rSU',
     descricao: 'Sequência calma para melhorar o sono.'
   },
   {
@@ -1787,7 +1787,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/uCN9yGobgYo',
+    url: 'https://youtu.be/ycUvUOt3fn8',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1797,7 +1797,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/oiwIHfsE6sE',
+    url: 'https://youtu.be/15aZLLRp_DY',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1807,7 +1807,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/CZ0ZDXPYbHI',
+    url: 'https://youtu.be/LtoNq4m437A',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1816,7 +1816,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/ykUqpc3TMBk',
+    url: 'https://youtu.be/FKQu3RGSJcg',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1826,7 +1826,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/C1Lx9BCtpQw',
+    url: 'https://youtu.be/8W6CcJcdaT4',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1836,7 +1836,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/BOJnIQLemQI',
+    url: 'https://youtu.be/GWaLq9Ze6Zg',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1845,7 +1845,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/BkRpKFBpge0',
+    url: 'https://youtu.be/ej8EoQwhV5g',
     descricao: 'Sequência calma para melhorar o sono.'
   },
   {
@@ -1854,7 +1854,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/t97E_JzrBs0',
+    url: 'https://youtu.be/L6Qaux6LUAo',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1864,7 +1864,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/glWZPjj6W-Q',
+    url: 'https://youtu.be/GP7Wf0Qtmwc',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1874,7 +1874,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '1h 6 min',
-    url: 'https://youtu.be/cv7gFzuBdJM',
+    url: 'https://youtu.be/SXb7AMCppVs',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1883,7 +1883,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/FJg_Uicl7t8',
+    url: 'https://youtu.be/AZgiGaCKPAo',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1893,7 +1893,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/E1rlNL813OM',
+    url: 'https://youtu.be/kXnXOHfPfQY',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1903,7 +1903,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/5UZp1HOIQmk',
+    url: 'https://youtu.be/htb3L_8o_dA',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1912,7 +1912,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/MtzSv_ro5sk',
+    url: 'https://youtu.be/-Osl3BGowuo',
     descricao: 'Sequência calma para melhorar o sono.'
   },
   {
@@ -1921,7 +1921,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/96PkNa_ZzzY',
+    url: 'https://youtu.be/dibaZrWIU0o',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1931,7 +1931,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/fi2THw1U5hE',
+    url: 'https://youtu.be/M5_AzrLylAI',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1941,7 +1941,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/hxM8JOZhs60',
+    url: 'https://youtu.be/riTJL1Z6ZNA',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1950,7 +1950,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/RkmUvfyh398',
+    url: 'https://youtu.be/QeVVYxPH_-o',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -1960,7 +1960,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/uKkgdk3fj0c',
+    url: 'https://youtu.be/mlfDiw-Hk2Q',
     descricao: 'Sequência calma para melhorar o sono.'
   },
 
@@ -1970,7 +1970,7 @@ const aulas = [
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '30 min',
-    url: 'https://youtu.be/9It1ao8GCiM',
+    url: 'https://youtu.be/epANpPweg_Y',
     descricao: 'Aula focada em mobilidade e alongamento.'
   },
   {
@@ -1979,7 +1979,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/J6ei8t6dBbs',
+    url: 'https://youtu.be/cn1wl65YO7c',
     descricao: 'Sequência calma para melhorar o sono.'
   },
   {
@@ -1988,7 +1988,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/Y9jPVenvlts',
+    url: 'https://youtu.be/Wv1FrFIYp7U',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
    {
@@ -1997,7 +1997,7 @@ const aulas = [
   nivel: 'Iniciante',
   categoria: 'Relaxamento',
   duracao: '59 min',
-  url: 'https://youtu.be/1GwHxsmFHd8',
+  url: 'https://youtu.be/a5tK4DPkFbE',
   descricao: 'Uma aula completa de yoga para relaxar, alongar o corpo e libertar tensões.'
 },
  {
@@ -2006,13 +2006,13 @@ const aulas = [
   nivel: 'Iniciante',
   categoria: 'Relaxamento',
   duracao: '59 min',
-  url: 'https://youtu.be/MGLuZO4WW84',
+  url: 'https://youtu.be/w-tTKRN5tic',
   descricao: 'Uma aula completa de yoga para relaxar, alongar o corpo e libertar tensões.'
 }
 
 ];
 
-for (let i = 305; i <= 500; i++) {
+for (let i = 205; i <= 500; i++) {
 
   const titulo = titulos[i % titulos.length];
   const nivel = niveis[i % niveis.length];
