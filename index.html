@@ -772,9 +772,17 @@
   return localStorage.getItem(`aula_${id}`) === 'vista';
 }
 
-function marcarComoVista(id) {
-  localStorage.setItem(`aula_${id}`, 'vista');
+function alternarVista(id) {
+
+  if (aulaVista(id)) {
+    localStorage.removeItem(`aula_${id}`);
+  } else {
+    localStorage.setItem(`aula_${id}`, 'vista');
+  }
+
+  atualizarFiltros();
 }
+    
 
     function getYoutubeThumbnail(url) {
       const regExp = /(?:youtube\.com\/watch\?v=|youtu\.be\/)([^&\n?#]+)/;
@@ -843,17 +851,26 @@ function marcarComoVista(id) {
               ${aula.descricao}
             </p>
 
-            <a href="${aula.url}" 
-   target="_blank"
-   onclick="marcarComoVista(${aula.numero})">
+            <div style="display:flex; gap:10px;">
 
-  <button class="watch-btn">
+  <a href="${aula.url}" target="_blank" style="flex:1;">
+    <button class="watch-btn">
+      ▶ Ver Aula
+    </button>
+  </a>
+
+  <button
+    class="watch-btn"
+    onclick="alternarVista(${aula.numero})"
+    style="flex:1;">
+
     ${aulaVista(aula.numero)
       ? '✓ Visualizada'
-      : '▶ Ver Aula'}
+      : 'Marcar'}
+
   </button>
 
-</a>
+</div>
 
           </div>
 
