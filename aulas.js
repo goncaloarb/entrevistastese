@@ -62,22 +62,22 @@ const aulas = [
 
   {
     numero: 1,
-    titulo: 'Yoga para Ansiedade',
+    titulo: 'Espalhar a luz por cada canto do Planeta',
     nivel: 'Iniciante',
-    categoria: 'Relaxamento',
-    duracao: '22 min',
+    categoria: 'Yoga Total',
+    duracao: '42 min',
     url: 'https://youtu.be/8nd2bX18vzk',
-    descricao: 'Uma prática suave para relaxar corpo e mente.'
+    descricao: 'Uma prática suave durante o confinamento.'
   },
 
   {
     numero: 2,
-    titulo: 'Yoga para Dormir Melhor',
+    titulo: 'Envolver o Planeta terra em amor profundo',
     nivel: 'Iniciante',
-    categoria: 'Sono',
-    duracao: '18 min',
+    categoria: 'Yoga Total',
+    duracao: '54 min',
     url: 'https://youtu.be/BxTVmIHV2Kc',
-    descricao: 'Sequência calma para melhorar o sono.'
+    descricao: 'Uma prática suave durante o confinamento.'
   },
 
   {
