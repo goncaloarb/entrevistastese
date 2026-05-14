@@ -633,12 +633,394 @@ const aulas = [
     duracao: '1h 6 min',
     url: 'https://youtu.be/ATO1p3KWKO0',
     descricao: 'Aula focada em mobilidade e alongamento.'
+  },
+  {
+    numero: 61,
+    titulo: 'Yoga para Ansiedade',
+    nivel: 'Iniciante',
+    categoria: 'Relaxamento',
+    duracao: '22 min',
+    url: 'https://youtu.be/qz3dGLb06s4',
+    descricao: 'Uma prática suave para relaxar corpo e mente.'
+  },
+
+  {
+    numero: 62,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/ESj0Vgv8Pw4',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+
+  {
+    numero: 63,
+    titulo: 'Yoga para Alongamento',
+    nivel: 'Intermédio',
+    categoria: 'Flexibilidade',
+    duracao: '30 min',
+    url: 'https://youtu.be/ipIDg7dYeg4',
+    descricao: 'Aula focada em mobilidade e alongamento.'
+  },
+  {
+    numero: 64,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/9se875E4cro',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+  {
+    numero: 65,
+    titulo: 'Yoga para Ansiedade',
+    nivel: 'Iniciante',
+    categoria: 'Relaxamento',
+    duracao: '22 min',
+    url: 'https://youtu.be/r76Eo2vlhsI',
+    descricao: 'Uma prática suave para relaxar corpo e mente.'
+  },
+
+  {
+    numero: 66,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/XAqYFZzCWfY',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+
+  {
+    numero: 67,
+    titulo: 'Yoga para Alongamento',
+    nivel: 'Intermédio',
+    categoria: 'Flexibilidade',
+    duracao: '30 min',
+    url: 'https://youtu.be/zg56A_oNhso',
+    descricao: 'Aula focada em mobilidade e alongamento.'
+  },
+  {
+    numero: 68,
+    titulo: 'Yoga para Ansiedade',
+    nivel: 'Iniciante',
+    categoria: 'Relaxamento',
+    duracao: '22 min',
+    url: 'https://youtu.be/0s3h9fHmtC8',
+    descricao: 'Uma prática suave para relaxar corpo e mente.'
+  },
+
+  {
+    numero: 69,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/b_wAZ4X6kvU',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+
+  {
+    numero: 70,
+    titulo: 'Yoga para Alongamento',
+    nivel: 'Intermédio',
+    categoria: 'Flexibilidade',
+    duracao: '30 min',
+    url: 'https://youtu.be/bmKvX7XjV3w',
+    descricao: 'Aula focada em mobilidade e alongamento.'
+  },
+  {
+    numero: 71,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/Jh3aRU6XFgE',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+  {
+    numero: 72,
+    titulo: 'Yoga para Ansiedade',
+    nivel: 'Iniciante',
+    categoria: 'Relaxamento',
+    duracao: '22 min',
+    url: 'https://youtu.be/V6u8QFZ_XsY',
+    descricao: 'Uma prática suave para relaxar corpo e mente.'
+  },
+
+  {
+    numero: 73,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/xiGCm_atk4k',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+
+  {
+    numero: 74,
+    titulo: 'Yoga para Alongamento',
+    nivel: 'Intermédio',
+    categoria: 'Flexibilidade',
+    duracao: '1h 6 min',
+    url: 'https://youtu.be/K062UmcGheY',
+    descricao: 'Aula focada em mobilidade e alongamento.'
+  },
+  {
+    numero: 75,
+    titulo: 'Yoga para Ansiedade',
+    nivel: 'Iniciante',
+    categoria: 'Relaxamento',
+    duracao: '22 min',
+    url: 'https://youtu.be/uCu0xDN0iOg',
+    descricao: 'Uma prática suave para relaxar corpo e mente.'
+  },
+
+  {
+    numero: 76,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/dyhhdYBdHxU',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+
+  {
+    numero: 77,
+    titulo: 'Yoga para Alongamento',
+    nivel: 'Intermédio',
+    categoria: 'Flexibilidade',
+    duracao: '30 min',
+    url: 'https://youtu.be/QRJIeVuUZf0',
+    descricao: 'Aula focada em mobilidade e alongamento.'
+  },
+  {
+    numero: 78,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/IBTiR8jXoQw',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+  {
+    numero: 79,
+    titulo: 'Yoga para Ansiedade',
+    nivel: 'Iniciante',
+    categoria: 'Relaxamento',
+    duracao: '22 min',
+    url: 'https://youtu.be/uCN9yGobgYo',
+    descricao: 'Uma prática suave para relaxar corpo e mente.'
+  },
+
+  {
+    numero: 80,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/oiwIHfsE6sE',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+
+  {
+    numero: 81,
+    titulo: 'Yoga para Alongamento',
+    nivel: 'Intermédio',
+    categoria: 'Flexibilidade',
+    duracao: '30 min',
+    url: 'https://youtu.be/CZ0ZDXPYbHI',
+    descricao: 'Aula focada em mobilidade e alongamento.'
+  },
+  {
+    numero: 82,
+    titulo: 'Yoga para Ansiedade',
+    nivel: 'Iniciante',
+    categoria: 'Relaxamento',
+    duracao: '22 min',
+    url: 'https://youtu.be/ykUqpc3TMBk',
+    descricao: 'Uma prática suave para relaxar corpo e mente.'
+  },
+
+  {
+    numero: 83,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/C1Lx9BCtpQw',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+
+  {
+    numero: 84,
+    titulo: 'Yoga para Alongamento',
+    nivel: 'Intermédio',
+    categoria: 'Flexibilidade',
+    duracao: '30 min',
+    url: 'https://youtu.be/BOJnIQLemQI',
+    descricao: 'Aula focada em mobilidade e alongamento.'
+  },
+  {
+    numero: 85,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/BkRpKFBpge0',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+  {
+    numero: 86,
+    titulo: 'Yoga para Ansiedade',
+    nivel: 'Iniciante',
+    categoria: 'Relaxamento',
+    duracao: '22 min',
+    url: 'https://youtu.be/t97E_JzrBs0',
+    descricao: 'Uma prática suave para relaxar corpo e mente.'
+  },
+
+  {
+    numero: 87,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/glWZPjj6W-Q',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+
+  {
+    numero: 88,
+    titulo: 'Yoga para Alongamento',
+    nivel: 'Intermédio',
+    categoria: 'Flexibilidade',
+    duracao: '1h 6 min',
+    url: 'https://youtu.be/cv7gFzuBdJM',
+    descricao: 'Aula focada em mobilidade e alongamento.'
+  },
+  {
+    numero: 89,
+    titulo: 'Yoga para Ansiedade',
+    nivel: 'Iniciante',
+    categoria: 'Relaxamento',
+    duracao: '22 min',
+    url: 'https://youtu.be/FJg_Uicl7t8',
+    descricao: 'Uma prática suave para relaxar corpo e mente.'
+  },
+
+  {
+    numero: 90,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/E1rlNL813OM',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+
+  {
+    numero: 91,
+    titulo: 'Yoga para Alongamento',
+    nivel: 'Intermédio',
+    categoria: 'Flexibilidade',
+    duracao: '30 min',
+    url: 'https://youtu.be/5UZp1HOIQmk',
+    descricao: 'Aula focada em mobilidade e alongamento.'
+  },
+  {
+    numero: 92,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/MtzSv_ro5sk',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+  {
+    numero: 93,
+    titulo: 'Yoga para Ansiedade',
+    nivel: 'Iniciante',
+    categoria: 'Relaxamento',
+    duracao: '22 min',
+    url: 'https://youtu.be/96PkNa_ZzzY',
+    descricao: 'Uma prática suave para relaxar corpo e mente.'
+  },
+
+  {
+    numero: 94,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/fi2THw1U5hE',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+
+  {
+    numero: 95,
+    titulo: 'Yoga para Alongamento',
+    nivel: 'Intermédio',
+    categoria: 'Flexibilidade',
+    duracao: '30 min',
+    url: 'https://youtu.be/hxM8JOZhs60',
+    descricao: 'Aula focada em mobilidade e alongamento.'
+  },
+  {
+    numero: 96,
+    titulo: 'Yoga para Ansiedade',
+    nivel: 'Iniciante',
+    categoria: 'Relaxamento',
+    duracao: '22 min',
+    url: 'https://youtu.be/RkmUvfyh398',
+    descricao: 'Uma prática suave para relaxar corpo e mente.'
+  },
+
+  {
+    numero: 97,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/uKkgdk3fj0c',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+
+  {
+    numero: 98,
+    titulo: 'Yoga para Alongamento',
+    nivel: 'Intermédio',
+    categoria: 'Flexibilidade',
+    duracao: '30 min',
+    url: 'https://youtu.be/9It1ao8GCiM',
+    descricao: 'Aula focada em mobilidade e alongamento.'
+  },
+  {
+    numero: 99,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/J6ei8t6dBbs',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+  {
+    numero: 100,
+    titulo: 'Aula Especial (Vale de Cambra)',
+    nivel: 'Iniciante',
+    categoria: 'Relaxamento',
+    duracao: '22 min',
+    url: 'https://youtu.be/Y9jPVenvlts',
+    descricao: 'Uma prática suave para relaxar corpo e mente.'
   }
   
 
 ];
 
-for (let i = 61; i <= 500; i++) {
+for (let i = 101; i <= 500; i++) {
 
   const titulo = titulos[i % titulos.length];
   const nivel = niveis[i % niveis.length];
