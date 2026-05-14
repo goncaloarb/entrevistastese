@@ -100,41 +100,41 @@ const aulas = [
   },
   {
     numero: 5,
-    titulo: 'Yoga para Ansiedade',
-    nivel: 'Iniciante',
+    titulo: 'Equilíbrio Interior',
+    nivel: 'Intermédio',
     categoria: 'Relaxamento',
     duracao: '52 min',
     url: 'https://youtu.be/DS7Tz5eh9dA',
-    descricao: 'Uma prática suave para relaxar corpo e mente.'
+    descricao: 'Prática focada na respiração, relaxamento e equilíbrio entre corpo e mente.'
   },
 
   {
     numero: 6,
-    titulo: 'Yoga para Dormir Melhor',
-    nivel: 'Iniciante',
+    titulo: '"Respiração Consciente"',
+    nivel: 'Intermédio',
     categoria: 'Sono',
     duracao: '52 min',
     url: 'https://youtu.be/I5eYFc_sICs',
-    descricao: 'Sequência calma para melhorar o sono.'
+    descricao: 'Aula focada em técnicas respiratórias, alongamento e bem-estar interior.'
   },
 
   {
     numero: 7,
-    titulo: 'Yoga para Alongamento',
+    titulo: 'Vai ficar tudo bem',
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
     duracao: '54 min',
     url: 'https://youtu.be/ql9gOCChnMk',
-    descricao: 'Aula focada em mobilidade e alongamento.'
+    descricao: 'Aula de yoga suave para acalmar a mente e cultivar confiança em tempos difíceis.'
   },
   {
     numero: 8,
-    titulo: 'Yoga para Ansiedade',
+    titulo: 'Aquietar a mente',
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '1h 4min',
     url: 'https://youtu.be/J1v8cmb4ubE',
-    descricao: 'Uma prática suave para relaxar corpo e mente.'
+    descricao: 'Uma prática de yoga calma e centrada, focada em desacelerar e aquietar a mente.'
   },
 
   {
