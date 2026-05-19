@@ -130,7 +130,7 @@ const aulas = [
   {
     numero: 8,
     titulo: 'Aquietar a mente',
-    nivel: 'Iniciante',
+    nivel: 'Intermédio',
     categoria: 'Relaxamento',
     duracao: '1h 4min',
     url: 'https://youtu.be/J1v8cmb4ubE',
@@ -139,40 +139,40 @@ const aulas = [
 
   {
     numero: 9,
-    titulo: 'Yoga para Dormir Melhor',
-    nivel: 'Iniciante',
+    titulo: 'Aula Completa',
+    nivel: 'Intermédio',
     categoria: 'Sono',
     duracao: '1h 4min',
     url: 'https://youtu.be/KJasf_IeL4Y',
-    descricao: 'Sequência calma para melhorar o sono.'
+    descricao: 'Aula do yoga relaxante, para acalmar o stress'
   },
 
   {
     numero: 10,
-    titulo: 'Yoga para Alongamento',
+    titulo: 'A energia que está dentro de nós',
     nivel: 'Intermédio',
     categoria: 'Flexibilidade',
-    duracao: '30 min',
+    duracao: '53 min',
     url: 'https://youtu.be/rC2npY28fto',
-    descricao: 'Aula focada em mobilidade e alongamento.'
+    descricao: 'Uma aula para despertar a energia que vive dentro de nós, através da respiração, do movimento e da conexão interior.'
   },
   {
     numero: 11,
-    titulo: 'Yoga para Dormir Melhor',
-    nivel: 'Iniciante',
+    titulo: 'Todos os seres do planeta felizes',
+    nivel: 'Intermédio',
     categoria: 'Sono',
-    duracao: '18 min',
+    duracao: '57 min',
     url: 'https://youtu.be/RMnmmvSxflA',
-    descricao: 'Sequência calma para melhorar o sono.'
+    descricao: 'Uma prática dedicada à felicidade e harmonia de todos os seres do planeta.'
   },
   {
     numero: 12,
-    titulo: 'Yoga para Ansiedade',
+    titulo: 'Alcançar um estado de bem estar',
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
-    duracao: '22 min',
+    duracao: '58 min',
     url: 'https://youtu.be/ZmxHyTuXo38',
-    descricao: 'Uma prática suave para relaxar corpo e mente.'
+    descricao: 'Uma prática para despertar a energia interior e alcançar um profundo estado de bem-estar, equilíbrio e conexão.'
   },
 
   {
