@@ -5110,7 +5110,7 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Relaxamento',
     duracao: '22 min',
-    url: 'https://youtu.be/gsekXwaWSFU',
+    url: 'https://youtu.be/9qWvqwGe5Kc',
     descricao: 'Uma prática suave para relaxar corpo e mente.'
   },
 
@@ -5120,14 +5120,82 @@ const aulas = [
     nivel: 'Iniciante',
     categoria: 'Sono',
     duracao: '18 min',
-    url: 'https://youtu.be/FeZcgbiFupU',
+    url: 'https://youtu.be/mKGIRZInUuY',
     descricao: 'Sequência calma para melhorar o sono.'
+  },
+
+  {
+    numero: 531,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/tSy7gAnyDeA',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+
+  {
+    numero: 532,
+    titulo: 'Yoga para Alongamento',
+    nivel: 'Intermédio',
+    categoria: 'Flexibilidade',
+    duracao: '30 min',
+    url: 'https://youtu.be/EjkpTnQTRk4',
+    descricao: 'Aula focada em mobilidade e alongamento.'
+  },
+  {
+    numero: 533,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/FYatTqOLiTg',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+  {
+    numero: 534,
+    titulo: 'Yoga para Ansiedade',
+    nivel: 'Iniciante',
+    categoria: 'Relaxamento',
+    duracao: '22 min',
+    url: 'https://youtu.be/hCPknsJ9dKE',
+    descricao: 'Uma prática suave para relaxar corpo e mente.'
+  },
+
+  {
+    numero: 535,
+    titulo: 'Yoga para Dormir Melhor',
+    nivel: 'Iniciante',
+    categoria: 'Sono',
+    duracao: '18 min',
+    url: 'https://youtu.be/rY4yGc7L0nc',
+    descricao: 'Sequência calma para melhorar o sono.'
+  },
+
+  {
+    numero: 536,
+    titulo: 'Yoga para Alongamento',
+    nivel: 'Intermédio',
+    categoria: 'Flexibilidade',
+    duracao: '1h 6 min',
+    url: 'https://youtu.be/jfw_MCl5TXk',
+    descricao: 'Aula focada em mobilidade e alongamento.'
+  },
+  {
+    numero: 537,
+    titulo: 'Yoga para Ansiedade',
+    nivel: 'Iniciante',
+    categoria: 'Relaxamento',
+    duracao: '22 min',
+    url: 'https://youtu.be/6kQadLL5aXI',
+    descricao: 'Uma prática suave para relaxar corpo e mente.'
   }
+ 
 
 
 ];
 
-for (let i = 529; i <= 530; i++) {
+for (let i = 538; i <= 537; i++) {
 
   const titulo = titulos[i % titulos.length];
   const nivel = niveis[i % niveis.length];
